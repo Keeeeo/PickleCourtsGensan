@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pw-lagao-1",
+    "name": "Pickle World - Lagao",
+    "address": "114L, Purok 12 Arradaza St, Brgy. Lagao",
+    "latitude": 6.1147,
+    "longitude": 125.1699,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "smash-city-1",
+    "name": "Smash City Pickleball Courts",
+    "address": "National Hwy, Brgy. Calumpang",
+    "latitude": 6.0972,
+    "longitude": 125.1631,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 400,
+    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "dadiangas-sports-hub",
+    "name": "Dadiangas Sports Hub Courts",
+    "address": "Pioneer Ave, Brgy. Dadiangas East",
+    "latitude": 6.1128,
+    "longitude": 125.1739,
+    "status": "closed",
+    "hasOpenPlay": false,
+    "hasCourtBooking": true,
+    "pricePerHour": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "fatima-picklers",
+    "name": "Fatima Picklers Court",
+    "address": "Km 9, Brgy. Fatima",
+    "latitude": 6.0805,
+    "longitude": 125.1874,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": false,
+    "pricePerHour": 250,
+    "imageUrl": "https://images.unsplash.com/photo-1662229360961-64e8c964b13e?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "gensan-city-courts",
+    "name": "GenSan City Pickleball Courts",
+    "address": "Osmena St, Brgy. Lagao",
+    "latitude": 6.1189,
+    "longitude": 125.1655,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 320,
+    "imageUrl": "https://images.unsplash.com/photo-1610123172763-e831e6a76918?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "kcc-pickle-park",
+    "name": "KCC Pickle Park",
+    "address": "KCC Mall Compound, Brgy. City Heights",
+    "latitude": 6.1103,
+    "longitude": 125.1783,
+    "status": "closed",
+    "hasOpenPlay": false,
+    "hasCourtBooking": false,
+    "pricePerHour": 380,
+    "imageUrl": "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "buayan-baseline",
+    "name": "Buayan Baseline Courts",
+    "address": "Purok Malipayon, Brgy. Buayan",
+    "latitude": 6.0669,
+    "longitude": 125.1543,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 280,
+    "imageUrl": "https://images.unsplash.com/photo-1723209379833-1a13b6bb9be3?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "tambler-net-house",
+    "name": "Tambler Net House",
+    "address": "Purok Waling-Waling, Brgy. Tambler",
+    "latitude": 6.0507,
+    "longitude": 125.1958,
+    "status": "open",
+    "hasOpenPlay": false,
+    "hasCourtBooking": true,
+    "pricePerHour": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=800&auto=format&fit=crop"
+  }
+]
