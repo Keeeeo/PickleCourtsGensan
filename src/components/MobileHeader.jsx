@@ -1,4 +1,4 @@
-import { Menu, Search, SlidersHorizontal, CircleDot } from 'lucide-react'
+import { Menu, Search, SlidersHorizontal } from 'lucide-react'
 
 export default function MobileHeader({ onOpenDrawer, onOpenFilters, onOpenSearch }) {
   return (
@@ -13,8 +13,8 @@ export default function MobileHeader({ onOpenDrawer, onOpenFilters, onOpenSearch
         </button>
 
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-full bg-pickle flex items-center justify-center">
-            <CircleDot className="w-4 h-4 text-slate" strokeWidth={2.5} />
+          <div className="w-7 h-7 rounded-full overflow-hidden bg-slate-950 flex items-center justify-center">
+            <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-display font-700 text-white tracking-wide">PickleCourts</span>
         </div>

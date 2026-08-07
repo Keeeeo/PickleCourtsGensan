@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Home, MapPinned, SlidersHorizontal, CircleDot } from 'lucide-react'
+import { Home, MapPinned, SlidersHorizontal } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'Home', icon: Home, end: true },
@@ -10,8 +10,8 @@ export default function Sidebar({ onOpenFilters }) {
   return (
     <aside className="hidden md:flex md:w-20 lg:w-64 md:flex-col md:fixed md:inset-y-0 bg-slate court-lines z-30">
       <div className="flex items-center gap-2 px-4 lg:px-6 h-20 border-b border-white/10">
-        <div className="w-9 h-9 rounded-full bg-pickle flex items-center justify-center shrink-0">
-          <CircleDot className="w-5 h-5 text-slate" strokeWidth={2.5} />
+        <div className="w-9 h-9 rounded-full overflow-hidden bg-slate-950 flex items-center justify-center shrink-0">
+          <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="w-full h-full object-cover" />
         </div>
         <div className="hidden lg:block leading-tight">
           <p className="font-display font-700 text-white text-lg tracking-wide">PickleCourts</p>
