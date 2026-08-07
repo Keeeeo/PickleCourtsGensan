@@ -1,8 +1,8 @@
 [
   {
     "id": "pw-lagao-1",
-    "name": "Pickle World - Lagao",
-    "address": "114L, Purok 12 Arradaza St, Brgy. Lagao",
+    "name": "Pickle World Gensan - Lagao",
+    "address": "114L Arradaza Street, Purok 12, Brgy. Lagao, General Santos City",
     "latitude": 6.1147,
     "longitude": 125.1699,
     "status": "open",
@@ -17,11 +17,11 @@
       "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 123 4567",
-      "email": "hello@pickleworldgensan.com",
+      "phone": "+63 954 388 4958",
+      "email": "pickleworld.gsc@gmail.com",
       "facebook": "https://facebook.com/pickleworldgensan"
     },
-    "scheduleNote": "Open Play runs daily 6-9 AM and 4-9 PM. Court Booking is available by the hour outside those windows - message ahead to reserve.",
+    "scheduleNote": "Open daily 8:00 AM – 1:00 AM. Indoor synthetic flooring with paddle rentals and organized open play.",
     "booking": {
       "type": "messenger",
       "url": "https://m.me/pickleworldgensan",
@@ -29,200 +29,249 @@
     }
   },
   {
-    "id": "smash-city-1",
-    "name": "Smash City Pickleball Courts",
-    "address": "National Hwy, Brgy. Calumpang",
-    "latitude": 6.0972,
-    "longitude": 125.1631,
+    "id": "pw-downtown-2",
+    "name": "Pickle World Gensan - Downtown",
+    "address": "NCCC Compound, National Highway, General Santos City",
+    "latitude": 6.1189,
+    "longitude": 125.1712,
     "status": "open",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 400,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1610123172763-e831e6a76918?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 918 234 5678",
-      "email": "book@smashcitygensan.com",
-      "facebook": "https://facebook.com/smashcitygensan"
-    },
-    "scheduleNote": "Open Play every day, first come first served. Court Booking online for reserved 1-hour and 2-hour slots.",
-    "booking": {
-      "type": "website",
-      "url": "https://smashcitygensan.example.com/book",
-      "label": "Book on our website"
-    }
-  },
-  {
-    "id": "dadiangas-sports-hub",
-    "name": "Dadiangas Sports Hub Courts",
-    "address": "Pioneer Ave, Brgy. Dadiangas East",
-    "latitude": 6.1128,
-    "longitude": 125.1739,
-    "status": "closed",
-    "hasOpenPlay": false,
-    "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": 360,
     "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 919 345 6789",
-      "email": "",
-      "facebook": "https://facebook.com/dadiangasspotshub"
-    },
-    "scheduleNote": "Currently closed for court resurfacing. Court Booking reservations are still being taken for next month.",
-    "booking": {
-      "type": "phone",
-      "url": "tel:+639193456789",
-      "label": "Call to reserve"
-    }
-  },
-  {
-    "id": "fatima-picklers",
-    "name": "Fatima Picklers Court",
-    "address": "Km 9, Brgy. Fatima",
-    "latitude": 6.0805,
-    "longitude": 125.1874,
-    "status": "open",
-    "hasOpenPlay": true,
-    "hasCourtBooking": false,
-    "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1662229360961-64e8c964b13e?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1662229360961-64e8c964b13e?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1662229360961-64e8c964b13e?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1723209379833-1a13b6bb9be3?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 920 456 7890",
-      "email": "fatimapicklers@gmail.com",
-      "facebook": "https://facebook.com/fatimapicklers"
-    },
-    "scheduleNote": "Open Play only - community-run, no reservations needed. Just show up between 5-8 PM.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/fatimapicklers",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "gensan-city-courts",
-    "name": "GenSan City Pickleball Courts",
-    "address": "Osmena St, Brgy. Lagao",
-    "latitude": 6.1189,
-    "longitude": 125.1655,
-    "status": "open",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 320,
-    "imageUrl": "https://images.unsplash.com/photo-1610123172763-e831e6a76918?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1610123172763-e831e6a76918?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1610123172763-e831e6a76918?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 921 567 8901",
-      "email": "info@gensancitycourts.ph",
-      "facebook": "https://facebook.com/gensancitycourts"
-    },
-    "scheduleNote": "Open Play mornings 6-10 AM. Court Booking via Google Form for afternoon and evening slots.",
-    "booking": {
-      "type": "gdocs",
-      "url": "https://docs.google.com/forms/d/e/example/viewform",
-      "label": "Book via Google Form"
-    }
-  },
-  {
-    "id": "kcc-pickle-park",
-    "name": "KCC Pickle Park",
-    "address": "KCC Mall Compound, Brgy. City Heights",
-    "latitude": 6.1103,
-    "longitude": 125.1783,
-    "status": "closed",
-    "hasOpenPlay": false,
-    "hasCourtBooking": false,
-    "pricePerHour": 380,
-    "imageUrl": "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1649770412495-c73ba0b04f7f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 922 678 9012",
-      "email": "",
-      "facebook": "https://facebook.com/kccpicklepark"
-    },
-    "scheduleNote": "Temporarily closed. Follow their Facebook page for reopening updates.",
-    "booking": {
-      "type": "facebook",
-      "url": "https://facebook.com/kccpicklepark",
-      "label": "Message on Facebook"
-    }
-  },
-  {
-    "id": "buayan-baseline",
-    "name": "Buayan Baseline Courts",
-    "address": "Purok Malipayon, Brgy. Buayan",
-    "latitude": 6.0669,
-    "longitude": 125.1543,
-    "status": "open",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 280,
-    "imageUrl": "https://images.unsplash.com/photo-1723209379833-1a13b6bb9be3?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1723209379833-1a13b6bb9be3?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1723209379833-1a13b6bb9be3?q=80&w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 923 789 0123",
-      "email": "buayanbaseline@gmail.com",
-      "facebook": "https://facebook.com/buayanbaseline"
+      "phone": "+63 956 283 1362",
+      "email": "pickleworld.gsc@gmail.com",
+      "facebook": "https://facebook.com/pickleworldgensan"
     },
-    "scheduleNote": "Open Play weekends only. Court Booking available weekdays, message to check slots.",
+    "scheduleNote": "Open daily 6:00 AM – 2:00 AM. 13 indoor courts featuring silica sand finish, shower facilities, and free parking.",
+    "booking": {
+      "type": "website",
+      "url": "https://picklehub.ph/pickle-world-gensan-downtown",
+      "label": "Book via PickleHub"
+    }
+  },
+  {
+    "id": "picklepals-sm-3",
+    "name": "Picklepals",
+    "address": "Parking Lot E, SM City General Santos, San Miguel St, General Santos City",
+    "latitude": 6.1158,
+    "longitude": 125.1764,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 993 807 9808",
+      "email": "hello@picklepals.co",
+      "facebook": "https://facebook.com/picklepals"
+    },
+    "scheduleNote": "4 outdoor sport-court courts open 6:00 AM – 10:00 PM daily. Daytime: ₱250/hr, Nighttime (after 5 PM): ₱350/hr.",
+    "booking": {
+      "type": "website",
+      "url": "https://picklepals.co",
+      "label": "Book via Website"
+    }
+  },
+  {
+    "id": "third-shot-4",
+    "name": "Third Shot Pickleground Gensan",
+    "address": "Warehouse 3, Sunshine Compound, Arradaza Street, Brgy. Lagao, General Santos City",
+    "latitude": 6.1180,
+    "longitude": 125.1810,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 927 742 5286",
+      "email": "thirshotpickleground@gmail.com",
+      "facebook": "https://facebook.com/thirdshotpickleground"
+    },
+    "scheduleNote": "Open 6:00 AM – 2:00 AM daily. 5 indoor courts with USAPA PVC flooring, ball-thrower machine, and pro shop.",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/buayanbaseline",
+      "url": "https://m.me/thirdshotpickleground",
       "label": "Message on Messenger"
     }
   },
   {
-    "id": "tambler-net-house",
-    "name": "Tambler Net House",
-    "address": "Purok Waling-Waling, Brgy. Tambler",
-    "latitude": 6.0507,
-    "longitude": 125.1958,
+    "id": "dink-oclock-5",
+    "name": "Dink O'Clock",
+    "address": "Big Wide, National Highway, Palen, Brgy. Labangal, General Santos City",
+    "latitude": 6.1055,
+    "longitude": 125.1512,
     "status": "open",
-    "hasOpenPlay": false,
+    "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
-    "imageUrl": "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1622163642998-1ea32b0bbc67?q=80&w=800&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 924 890 1234",
-      "email": "tamblernethouse@gmail.com",
-      "facebook": "https://facebook.com/tamblernethouse"
+      "phone": "+63 960 579 9296",
+      "email": "dinkoclockpickle@gmail.com",
+      "facebook": "https://facebook.com/dinkoclock"
     },
-    "scheduleNote": "Court Booking only, by appointment. No open play at this location.",
+    "scheduleNote": "Open 6:00 AM – 1:00 AM. 5 indoor courts (acrylic-coated concrete). ₱300/hr (6 AM - 4 PM) and ₱350/hr (4 PM - 1 AM).",
     "booking": {
-      "type": "phone",
-      "url": "tel:+639248901234",
-      "label": "Call to book"
+      "type": "website",
+      "url": "http://www.dinkoclock.com",
+      "label": "Book via Website"
+    }
+  },
+  {
+    "id": "altori-park-6",
+    "name": "Altori Park Pickleball",
+    "address": "Matatag Park Square, Nuñez Ext. Street, General Santos City",
+    "latitude": 6.1305,
+    "longitude": 125.1850,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 929 340 6022",
+      "email": "altoriparkwayhotel@gmail.com",
+      "facebook": "https://facebook.com/altoripark"
+    },
+    "scheduleNote": "JOOLA-certified facility with 9 total courts (4 indoor & 5 outdoor). Open 4:00 PM – 12:00 AM.",
+    "booking": {
+      "type": "app",
+      "url": "https://altoriparkpickleball.simplybook.me",
+      "label": "Book via SimplyBook"
+    }
+  },
+  {
+    "id": "court-zero-7",
+    "name": "Court Zero Racquet Club",
+    "address": "Sampaguita Street, Brgy. City Heights, General Santos City",
+    "latitude": 6.1210,
+    "longitude": 125.1700,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 960 200 9482",
+      "email": "courtzeroph@gmail.com",
+      "facebook": "https://facebook.com/courtzeroracquetclub"
+    },
+    "scheduleNote": "Open 7:00 AM – 11:00 PM. Features 3 outdoor covered pickleball courts. Morning open play rates available.",
+    "booking": {
+      "type": "messenger",
+      "url": "https://m.me/courtzeroracquetclub",
+      "label": "Message on Messenger"
+    }
+  },
+  {
+    "id": "sideout-8",
+    "name": "SideOut Pickleball Court",
+    "address": "Zone 4, Block 5, Solomon Subdivision, Purok 15, Brgy. Lagao, General Santos City",
+    "latitude": 6.1280,
+    "longitude": 125.1950,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 350,
+    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 917 309 8770",
+      "email": "",
+      "facebook": "https://facebook.com/sideoutpickleball"
+    },
+    "scheduleNote": "Open 6:00 AM – 10:00 PM. ₱250/hr (6 AM – 6 PM) and ₱350/hr (6 PM – 10 PM). PWD-friendly comfort room & free parking.",
+    "booking": {
+      "type": "messenger",
+      "url": "https://m.me/sideoutpickleball",
+      "label": "Message on Messenger"
+    }
+  },
+  {
+    "id": "city-smash-9",
+    "name": "City Smash Pickleball",
+    "address": "PG Building, National Highway, General Santos City",
+    "latitude": 6.1195,
+    "longitude": 125.1720,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 300,
+    "imageUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 945 542 2200",
+      "email": "citysmashpickleball@gmail.com",
+      "facebook": "https://facebook.com/citysmashpickleball"
+    },
+    "scheduleNote": "Open 4:00 PM – 12:00 MN daily. Features 2 outdoor silica-sand courts, bites & drinks area, and changing rooms.",
+    "booking": {
+      "type": "messenger",
+      "url": "https://m.me/citysmashpickleball",
+      "label": "Message on Messenger"
+    }
+  },
+  {
+    "id": "dlotte-pickle-10",
+    "name": "D'Lotte Pickle Park",
+    "address": "Nuñez Street, Purok Riverside, General Santos City",
+    "latitude": 6.1290,
+    "longitude": 125.1830,
+    "status": "open",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 250,
+    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "",
+      "email": "dlottepicklepark@gmail.com",
+      "facebook": "https://facebook.com/dlottepicklepark"
+    },
+    "scheduleNote": "Open 6:00 AM – 12:00 AM. 4 courts available. ₱200 (Day rate) / ₱250 (Night rate starting 5:00 PM). Free coffee & drinks.",
+    "booking": {
+      "type": "messenger",
+      "url": "https://m.me/dlottepicklepark",
+      "label": "Message on Messenger"
     }
   }
 ]
