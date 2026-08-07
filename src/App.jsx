@@ -6,6 +6,7 @@ import MobileDrawer from './components/MobileDrawer'
 import FilterPanel from './components/FilterPanel'
 import HomePage from './pages/HomePage'
 import MapView from './pages/MapView'
+import CourtDetailPage from './pages/CourtDetailPage'
 import courtsData from './data/courts.json'
 import { useGeolocation } from './hooks/useGeolocation'
 import { haversineDistanceKm } from './utils/haversine'
@@ -107,6 +108,12 @@ export default function App() {
                 locationStatus={locationStatus}
                 onRequestLocation={requestLocation}
               />
+            }
+          />
+          <Route
+            path="/court/:id"
+            element={
+              <CourtDetailPage courts={courtsData} distances={distances} locationStatus={locationStatus} />
             }
           />
         </Routes>
