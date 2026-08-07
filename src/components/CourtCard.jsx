@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import { useMemo, useState } from 'react'
-import { MapPin, Navigation, Users, CalendarCheck, CircleDot } from 'lucide-react'
+import { useState } from 'react'
+import { MapPin, Navigation, CircleDot } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
@@ -9,13 +9,6 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
   const bookingUrl = court.booking?.url
   const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
   const externalRel = externalTarget ? 'noreferrer' : undefined
-
-  const featureTags = useMemo(() => {
-    const tags = []
-    if (court.hasOpenPlay) tags.push('Open Play')
-    if (court.hasCourtBooking) tags.push('Court Booking')
-    return tags
-  }, [court])
 
   return (
     <div className="group overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-xl">
@@ -61,13 +54,6 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
             <MapPin className="h-4 w-4 text-emerald-600" />
             <span className="truncate">{court.address}</span>
           </p>
-          <div className="flex flex-wrap gap-2">
-            {featureTags.map((tag) => (
-              <span key={tag} className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
-                {tag}
-              </span>
-            ))}
-          </div>
         </div>
 
         <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500">
