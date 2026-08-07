@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { Home, MapPinned, SlidersHorizontal } from 'lucide-react'
+import { Home, MapPinned } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'Home', icon: Home, end: true },
@@ -35,14 +35,6 @@ export default function Sidebar({ onOpenFilters }) {
             <span className="hidden lg:inline font-medium text-sm">{label}</span>
           </NavLink>
         ))}
-
-        <button
-          onClick={onOpenFilters}
-          className="w-full group flex items-center gap-3 px-3 py-3 rounded-xl text-slate-300 hover:bg-white/5 hover:text-white transition-colors"
-        >
-          <SlidersHorizontal className="w-5 h-5 shrink-0" />
-          <span className="hidden lg:inline font-medium text-sm">Filters</span>
-        </button>
       </nav>
 
       <div className="hidden lg:block px-6 py-5 border-t border-white/10">

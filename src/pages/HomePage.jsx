@@ -1,7 +1,16 @@
-import { Search, MapPin } from 'lucide-react'
+import { useState } from 'react'
+import { Search, MapPin, SlidersHorizontal } from 'lucide-react'
 import CardGrid from '../components/CardGrid'
+import FilterPanel from '../components/FilterPanel'
 
 export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, searchOpen }) {
+  const [filterOpen, setFilterOpen] = useState(false)
+  const [sortBy, setSortBy] = useState('name-asc')
+  const [availability, setAvailability] = useState({
+    hasOpenPlay: true,
+    hasCourtBooking: true,
+  })
+
   return (
     <main className="pb-16 bg-slate-50">
       <section className="relative overflow-hidden bg-white px-4 py-10 shadow-sm md:px-8 md:py-14">
@@ -21,7 +30,7 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
             </p>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-[1fr_auto] lg:grid-cols-[1fr_auto_auto] items-center">
+          <div className="grid gap-4 sm:grid-cols-[1fr_auto] items-center">
             <div className="relative w-full min-w-0">
               <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
               <input
@@ -34,17 +43,11 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
 
             <button
               type="button"
-              className="inline-flex items-center justify-center rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:border-emerald-300 hover:bg-emerald-50"
+              onClick={() => setFilterOpen(true)}
+              className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
             >
-              <MapPin className="mr-2 h-4 w-4 text-emerald-600" />
-              Nearest courts
-            </button>
-
-            <button
-              type="button"
-              className="inline-flex items-center justify-center rounded-2xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
-            >
-              Distance filter
+              <SlidersHorizontal className="h-4 w-4" />
+              Filter
             </button>
           </div>
 
@@ -62,6 +65,16 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
           <CardGrid courts={courts} distances={distances} locationStatus={locationStatus} />
         </div>
       </section>
+
+      <FilterPanel
+        open={filterOpen}
+        onClose={() => setFilterOpen(false)}
+        sortBy={sortBy}
+        onSortChange={setSortBy}
+        availability={availability}
+        onAvailabilityChange={setAvailability}
+        locationStatus={locationStatus}
+      />
     </main>
   )
 }
