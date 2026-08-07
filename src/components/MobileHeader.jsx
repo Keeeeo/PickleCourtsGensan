@@ -16,7 +16,6 @@ export default function MobileHeader({ onOpenDrawer, onOpenFilters, onOpenSearch
           <div className="w-16 h-16 overflow-hidden bg-transparent flex items-center justify-center">
             <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="h-full w-full object-contain" />
           </div>
-          <span className="font-sans font-semibold text-white tracking-wide">PickleCourts</span>
         </div>
 
         <div className="flex items-center gap-1">
