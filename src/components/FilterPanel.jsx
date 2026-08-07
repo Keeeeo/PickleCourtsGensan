@@ -29,8 +29,8 @@ export default function FilterPanel({
     <div className="fixed inset-0 z-50">
       <div className="absolute inset-0 bg-slate-950/50" onClick={onClose} />
       <div className="absolute inset-y-0 right-0 w-full max-w-sm bg-white flex flex-col shadow-2xl">
-        <div className="flex items-center justify-between h-16 px-5 border-b border-slate-100 kitchen-line">
-          <h2 className="font-display font-700 text-lg text-slate">Filter & Sort</h2>
+        <div className="flex items-center justify-between h-16 px-5 border-b border-slate-100">
+          <h2 className="font-sans font-bold text-lg text-slate-900">Filter & Sort</h2>
           <button onClick={onClose} aria-label="Close filters" className="p-2 rounded-lg hover:bg-slate-100">
             <X className="w-5 h-5 text-slate" />
           </button>
@@ -38,7 +38,7 @@ export default function FilterPanel({
 
         <div className="flex-1 overflow-y-auto thin-scroll px-5 py-6 space-y-8">
           <section>
-            <h3 className="text-xs font-mono tracking-widest text-slate-400 uppercase mb-3">Sort by</h3>
+            <h3 className="text-xs font-sans font-semibold tracking-widest text-slate-500 uppercase mb-3">Sort by</h3>
             <div className="space-y-2">
               {SORT_OPTIONS.map(({ value, label, icon: Icon }) => {
                 const isDistance = value.startsWith('distance')
@@ -49,12 +49,12 @@ export default function FilterPanel({
                     key={value}
                     disabled={disabled}
                     onClick={() => onSortChange(value)}
-                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium transition-colors ${
+                    className={`w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-sans font-medium transition-colors ${
                       disabled
                         ? 'text-slate-300 cursor-not-allowed'
                         : active
-                        ? 'bg-pickle/15 text-pickle-dark'
-                        : 'text-slate-600 hover:bg-slate-50'
+                        ? 'bg-emerald-50 text-emerald-700'
+                        : 'text-slate-700 hover:bg-slate-50'
                     }`}
                   >
                     <Icon className="w-4 h-4" />
@@ -67,7 +67,7 @@ export default function FilterPanel({
             {locationStatus !== 'granted' && (
               <button
                 onClick={onRequestLocation}
-                className="mt-3 w-full text-center text-xs font-semibold text-court py-2 rounded-lg border border-court/30 hover:bg-court/5"
+                className="mt-3 w-full text-center text-xs font-sans font-semibold text-emerald-600 py-2 rounded-lg border border-emerald-200 hover:bg-emerald-50"
               >
                 Share location to sort by distance
               </button>
@@ -75,27 +75,27 @@ export default function FilterPanel({
           </section>
 
           <section>
-            <h3 className="text-xs font-mono tracking-widest text-slate-400 uppercase mb-3">Availability</h3>
+            <h3 className="text-xs font-sans font-semibold tracking-widest text-slate-500 uppercase mb-3">Availability</h3>
             <div className="space-y-2">
               <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
                 <input
                   type="checkbox"
                   checked={availability.openPlay}
                   onChange={() => toggleAvailability('openPlay')}
-                  className="w-4 h-4 rounded accent-pickle"
+                  className="w-4 h-4 rounded accent-emerald-600"
                 />
                 <Users className="w-4 h-4 text-slate-500" />
-                <span className="text-sm font-medium text-slate-700">Open Play available</span>
+                <span className="text-sm font-sans font-medium text-slate-900">Open Play available</span>
               </label>
               <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
                 <input
                   type="checkbox"
                   checked={availability.courtBooking}
                   onChange={() => toggleAvailability('courtBooking')}
-                  className="w-4 h-4 rounded accent-court"
+                  className="w-4 h-4 rounded accent-emerald-600"
                 />
                 <CalendarCheck className="w-4 h-4 text-slate-500" />
-                <span className="text-sm font-medium text-slate-700">Court Booking available</span>
+                <span className="text-sm font-sans font-medium text-slate-900">Court Booking available</span>
               </label>
             </div>
           </section>
@@ -104,7 +104,7 @@ export default function FilterPanel({
         <div className="p-5 border-t border-slate-100">
           <button
             onClick={onClose}
-            className="w-full bg-slate text-white font-semibold text-sm py-3 rounded-xl hover:bg-slate-800 transition-colors"
+            className="w-full bg-emerald-600 text-white font-sans font-semibold text-sm py-3 rounded-xl hover:bg-emerald-700 transition-colors"
           >
             Show results
           </button>
