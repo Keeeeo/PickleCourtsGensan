@@ -12,11 +12,11 @@ export default function MobileHeader({ onOpenDrawer, onOpenFilters, onOpenSearch
           <Menu className="w-6 h-6" />
         </button>
 
-        <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-full overflow-hidden bg-slate-950 flex items-center justify-center">
-            <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="w-full h-full object-cover" />
+        <div className="flex items-center gap-3">
+          <div className="w-16 h-16 overflow-hidden bg-transparent flex items-center justify-center">
+            <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="h-full w-full object-contain" />
           </div>
-          <span className="font-display font-700 text-white tracking-wide">PickleCourts</span>
+          <span className="font-sans font-semibold text-white tracking-wide">PickleCourts</span>
         </div>
 
         <div className="flex items-center gap-1">

@@ -9,13 +9,13 @@ const navItems = [
 export default function Sidebar({ onOpenFilters }) {
   return (
     <aside className="hidden md:flex md:w-20 lg:w-64 md:flex-col md:fixed md:inset-y-0 bg-slate court-lines z-30">
-      <div className="flex items-center gap-2 px-4 lg:px-6 h-20 border-b border-white/10">
-        <div className="w-9 h-9 rounded-full overflow-hidden bg-slate-950 flex items-center justify-center shrink-0">
-          <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="w-full h-full object-cover" />
+      <div className="flex items-center gap-3 px-4 lg:px-6 h-20 border-b border-white/10">
+        <div className="w-20 h-20 overflow-hidden bg-transparent flex items-center justify-center shrink-0">
+          <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="h-full w-full object-contain" />
         </div>
         <div className="hidden lg:block leading-tight">
-          <p className="font-display font-700 text-white text-lg tracking-wide">PickleCourts</p>
-          <p className="text-court-light text-xs font-mono tracking-widest">GENSAN</p>
+          <p className="font-sans font-semibold text-white text-lg tracking-wide">PickleCourts</p>
+          <p className="text-court-light text-xs font-sans tracking-widest">GENSAN</p>
         </div>
       </div>
 
