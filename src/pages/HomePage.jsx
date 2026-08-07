@@ -3,7 +3,7 @@ import { Search, MapPin, SlidersHorizontal } from 'lucide-react'
 import CardGrid from '../components/CardGrid'
 import FilterPanel from '../components/FilterPanel'
 
-export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, searchOpen }) {
+export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, onRequestLocation, searchOpen }) {
   const [filterOpen, setFilterOpen] = useState(false)
   const [sortBy, setSortBy] = useState('name-asc')
   const [availability, setAvailability] = useState({
@@ -13,14 +13,9 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
 
   return (
     <main className="pb-16 bg-slate-50">
-      <section className="relative overflow-hidden bg-white px-4 py-10 shadow-sm md:px-8 md:py-14">
+      <section className="relative overflow-hidden bg-white px-4 py-8 shadow-sm md:px-8 md:py-10">
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-100 to-transparent" />
-        <div className="relative mx-auto flex max-w-6xl flex-col gap-8">
-          <div className="inline-flex items-center gap-2 self-start rounded-full bg-emerald-50 px-4 py-2 text-sm font-semibold text-emerald-700 shadow-sm">
-            <span>⚡</span>
-            10+ Courts Available
-          </div>
-
+        <div className="relative mx-auto flex max-w-6xl flex-col gap-6">
           <div className="max-w-3xl">
             <h1 className="font-sans text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
               Find & Book Pickleball Courts in GenSan
@@ -52,15 +47,24 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
           </div>
 
           {locationStatus !== 'granted' && (
-            <div className="inline-flex items-center gap-2 rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-600 shadow-sm">
-              <MapPin className="h-4 w-4 text-emerald-600" />
-              Share your location to see distances and sort by nearest.
+            <div className="grid gap-2 rounded-2xl border border-slate-300 bg-white px-4 py-1.5 text-sm text-slate-600 sm:grid-cols-[1fr_auto] sm:items-center">
+              <div className="flex items-center gap-2">
+                <MapPin className="h-4 w-4 text-slate-500" />
+                Share your location to see distances and sort by nearest.
+              </div>
+              <button
+                type="button"
+                onClick={onRequestLocation}
+                className="inline-flex items-center justify-center rounded-xl border border-slate-300 bg-slate-100 px-3 py-1.5 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-200"
+              >
+                Share location
+              </button>
             </div>
           )}
         </div>
       </section>
 
-      <section className="px-4 md:px-8 py-10">
+      <section className="px-4 md:px-8 py-6">
         <div className="mx-auto max-w-6xl">
           <CardGrid courts={courts} distances={distances} locationStatus={locationStatus} />
         </div>

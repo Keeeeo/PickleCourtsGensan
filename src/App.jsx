@@ -93,8 +93,7 @@ export default function App() {
                 distances={distances}
                 locationStatus={locationStatus}
                 query={query}
-                onQueryChange={setQuery}
-                searchOpen={searchOpen}
+                onQueryChange={setQuery}                onRequestLocation={requestLocation}                searchOpen={searchOpen}
               />
             }
           />
