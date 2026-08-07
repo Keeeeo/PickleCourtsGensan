@@ -6,16 +6,10 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
     <main>
       <section className="kitchen-line bg-white px-4 md:px-8 pt-10 pb-8">
         <div className="max-w-6xl mx-auto">
-          <p className="font-mono text-xs tracking-widest text-pickle-dark uppercase mb-2">
-            General Santos City
-          </p>
           <h1 className="font-display font-700 text-3xl md:text-5xl text-slate leading-tight">
             Find your next <span className="text-pickle-dark">kitchen line</span> in GenSan.
           </h1>
-          <p className="mt-3 text-slate-500 max-w-xl">
-            {courts.length} court{courts.length === 1 ? '' : 's'} listed — open play schedules, bookings, and
-            prices, all in one place.
-          </p>
+
 
           <div className={`mt-6 ${searchOpen ? 'block' : 'hidden'} md:block`}>
             <div className="relative max-w-md">

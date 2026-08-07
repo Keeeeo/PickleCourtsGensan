@@ -7,19 +7,10 @@ import {
   Facebook,
   Users,
   CalendarCheck,
-  ExternalLink,
   Wallet,
   Navigation,
 } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
-
-const BOOKING_ICON = {
-  website: ExternalLink,
-  gdocs: ExternalLink,
-  phone: Phone,
-  messenger: Facebook,
-  facebook: Facebook,
-}
 
 export default function CourtDetailPage({ courts, distances, locationStatus }) {
   const { id } = useParams()
@@ -28,7 +19,9 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
   if (!court) return <Navigate to="/" replace />
 
   const isOpen = court.status === 'open'
-  const BookingIcon = BOOKING_ICON[court.booking?.type] || ExternalLink
+  const bookingUrl = court.booking?.url
+  const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
+  const externalRel = externalTarget ? 'noreferrer' : undefined
 
   return (
     <main className="pb-16">
@@ -77,22 +70,61 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
             <p className="text-slate-600 text-sm leading-relaxed">{court.scheduleNote}</p>
 
             <div className="mt-4 grid grid-cols-2 gap-3">
-              <div
-                className={`flex items-center gap-2 rounded-xl px-3 py-3 text-sm font-medium ${
-                  court.hasOpenPlay ? 'bg-pickle/10 text-pickle-dark' : 'bg-slate-50 text-slate-300'
-                }`}
-              >
-                <Users className="w-4 h-4" />
-                {court.hasOpenPlay ? 'Open Play available' : 'No Open Play'}
-              </div>
-              <div
-                className={`flex items-center gap-2 rounded-xl px-3 py-3 text-sm font-medium ${
-                  court.hasCourtBooking ? 'bg-court/10 text-court' : 'bg-slate-50 text-slate-300'
-                }`}
-              >
-                <CalendarCheck className="w-4 h-4" />
-                {court.hasCourtBooking ? 'Court Booking available' : 'No Court Booking'}
-              </div>
+              {court.hasOpenPlay ? (
+                bookingUrl ? (
+                  <a
+                    href={bookingUrl}
+                    target={externalTarget}
+                    rel={externalRel}
+                    className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate bg-slate-100 hover:bg-pickle/15 hover:text-pickle-dark transition-colors"
+                  >
+                    <Users className="w-4 h-4" />
+                    Open Play
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    disabled
+                    className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-400 bg-slate-50 cursor-not-allowed"
+                  >
+                    <Users className="w-4 h-4" />
+                    Open Play
+                  </button>
+                )
+              ) : (
+                <span className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-300 bg-slate-50">
+                  <Users className="w-4 h-4" />
+                  Open Play
+                </span>
+              )}
+
+              {court.hasCourtBooking ? (
+                bookingUrl ? (
+                  <a
+                    href={bookingUrl}
+                    target={externalTarget}
+                    rel={externalRel}
+                    className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate bg-slate-100 hover:bg-court/15 hover:text-court transition-colors"
+                  >
+                    <CalendarCheck className="w-4 h-4" />
+                    Court Booking
+                  </a>
+                ) : (
+                  <button
+                    type="button"
+                    disabled
+                    className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-400 bg-slate-50 cursor-not-allowed"
+                  >
+                    <CalendarCheck className="w-4 h-4" />
+                    Court Booking
+                  </button>
+                )
+              ) : (
+                <span className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-300 bg-slate-50">
+                  <CalendarCheck className="w-4 h-4" />
+                  Court Booking
+                </span>
+              )}
             </div>
           </section>
 
@@ -174,17 +206,17 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
             )}
           </div>
 
-          {court.booking?.url && (
+          {bookingUrl && (
             <a
-              href={court.booking.url}
-              target={court.booking.type === 'phone' ? undefined : '_blank'}
-              rel="noreferrer"
+              href={bookingUrl}
+              target={externalTarget}
+              rel={externalRel}
               className="flex items-center justify-center gap-2 w-full bg-pickle hover:bg-pickle-dark text-white font-semibold text-sm py-3.5 rounded-xl shadow-card transition-colors"
             >
-              <BookingIcon className="w-4 h-4" />
               {court.booking.label || 'Book now'}
             </a>
           )}
+
         </aside>
       </div>
     </main>

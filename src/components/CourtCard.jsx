@@ -4,6 +4,9 @@ import { formatDistance } from '../utils/haversine'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
   const isOpen = court.status === 'open'
+  const bookingUrl = court.booking?.url
+  const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
+  const externalRel = externalTarget ? 'noreferrer' : undefined
 
   return (
     <div className="group bg-white rounded-card shadow-card hover:shadow-cardHover transition-shadow overflow-hidden flex flex-col">
@@ -50,35 +53,61 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
           <span className="text-slate-600 font-semibold">₱{court.pricePerHour}/hr</span>
         </div>
 
-        {/* Both buttons take you to this court's detail page, where the
-            actual booking action (website / phone / messenger / Google Form)
-            lives. Disabled state just means "not offered here" - still worth
-            a tap since the detail page explains why. */}
+        {/* Open the court’s external booking / website URL when available. */}
         <div className="mt-4 grid grid-cols-2 gap-2">
-          <Link
-            to={`/court/${court.id}`}
-            aria-disabled={!court.hasOpenPlay}
-            className={`flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium transition-colors ${
-              court.hasOpenPlay
-                ? 'bg-slate-100 text-slate hover:bg-pickle/15 hover:text-pickle-dark'
-                : 'bg-slate-50 text-slate-400'
-            }`}
-          >
-            <Users className="w-4 h-4" />
-            Open Play
-          </Link>
-          <Link
-            to={`/court/${court.id}`}
-            aria-disabled={!court.hasCourtBooking}
-            className={`flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium transition-colors ${
-              court.hasCourtBooking
-                ? 'bg-slate-100 text-slate hover:bg-court/15 hover:text-court'
-                : 'bg-slate-50 text-slate-400'
-            }`}
-          >
-            <CalendarCheck className="w-4 h-4" />
-            Court Booking
-          </Link>
+          {court.hasOpenPlay ? (
+            bookingUrl ? (
+              <a
+                href={bookingUrl}
+                target={externalTarget}
+                rel={externalRel}
+                className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-100 text-slate hover:bg-pickle/15 hover:text-pickle-dark transition-colors"
+              >
+                <Users className="w-4 h-4" />
+                Open Play
+              </a>
+            ) : (
+              <Link
+                to={`/court/${court.id}`}
+                className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-100 text-slate hover:bg-pickle/15 hover:text-pickle-dark transition-colors"
+              >
+                <Users className="w-4 h-4" />
+                Open Play
+              </Link>
+            )
+          ) : (
+            <span className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-50 text-slate-400">
+              <Users className="w-4 h-4" />
+              Open Play
+            </span>
+          )}
+
+          {court.hasCourtBooking ? (
+            bookingUrl ? (
+              <a
+                href={bookingUrl}
+                target={externalTarget}
+                rel={externalRel}
+                className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-100 text-slate hover:bg-court/15 hover:text-court transition-colors"
+              >
+                <CalendarCheck className="w-4 h-4" />
+                Court Booking
+              </a>
+            ) : (
+              <Link
+                to={`/court/${court.id}`}
+                className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-100 text-slate hover:bg-court/15 hover:text-court transition-colors"
+              >
+                <CalendarCheck className="w-4 h-4" />
+                Court Booking
+              </Link>
+            )
+          ) : (
+            <span className="flex items-center justify-center gap-1.5 rounded-lg py-2 text-sm font-medium bg-slate-50 text-slate-400">
+              <CalendarCheck className="w-4 h-4" />
+              Court Booking
+            </span>
+          )}
         </div>
       </div>
     </div>
