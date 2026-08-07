@@ -64,7 +64,7 @@ export default function App() {
   }, [query, availability, sortBy, distances])
 
   return (
-    <div className="min-h-screen bg-surface">
+    <div className="min-h-screen bg-slate-50 text-slate-900">
       <Sidebar onOpenFilters={() => setFiltersOpen(true)} />
       <MobileHeader
         onOpenDrawer={() => setDrawerOpen(true)}

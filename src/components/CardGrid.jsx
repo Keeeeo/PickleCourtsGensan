@@ -4,14 +4,14 @@ export default function CardGrid({ courts, distances, locationStatus }) {
   if (courts.length === 0) {
     return (
       <div className="text-center py-24">
-        <p className="font-display font-700 text-xl text-slate">No courts match those filters</p>
-        <p className="text-slate-500 text-sm mt-1">Try clearing a filter or two.</p>
+        <p className="font-sans text-xl font-semibold text-slate-900">No courts match those filters</p>
+        <p className="text-slate-500 text-sm mt-2">Try clearing a filter or adjusting your search.</p>
       </div>
     )
   }
 
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {courts.map((court) => (
         <CourtCard
           key={court.id}
