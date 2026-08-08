@@ -16,8 +16,8 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
       <section className="relative overflow-hidden bg-white px-4 py-8 shadow-sm md:px-8 md:py-10">
         <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-slate-100 to-transparent" />
         <div className="relative mx-auto flex max-w-6xl flex-col gap-6">
-          <div className="max-w-3xl">
-            <h1 className="font-sans text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl">
+          <div className="max-w-5xl">
+            <h1 className="font-sans text-3xl font-semibold tracking-tight text-slate-900 sm:text-4xl md:text-5xl whitespace-nowrap">
               Find & Book Pickleball Courts in GenSan
             </h1>
             <p className="mt-4 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
