@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
-import { MapPin, Navigation, CircleDot } from 'lucide-react'
+import { MapPin, Navigation, Users, CalendarCheck, CircleDot } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
@@ -74,23 +74,25 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
           </span>
         </div>
 
-        <div className="grid gap-3">
+        <div className="grid gap-3 grid-cols-2">
           {court.hasCourtBooking ? (
             bookingUrl ? (
               <a
                 href={bookingUrl}
                 target={externalTarget}
                 rel={externalRel}
-                className="inline-flex w-full items-center justify-center rounded-2xl bg-emerald-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
               >
+                <CalendarCheck className="h-4 w-4" />
                 Court Booking
               </a>
             ) : (
               <button
                 type="button"
                 disabled
-                className="inline-flex w-full cursor-not-allowed items-center justify-center rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
               >
+                <CalendarCheck className="h-4 w-4" />
                 Court Booking
               </button>
             )
@@ -98,8 +100,9 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
             <button
               type="button"
               disabled
-              className="inline-flex w-full cursor-not-allowed items-center justify-center rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+              className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
             >
+              <CalendarCheck className="h-4 w-4" />
               Court Booking
             </button>
           )}
@@ -110,16 +113,18 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
                 href={bookingUrl}
                 target={externalTarget}
                 rel={externalRel}
-                className="inline-flex w-full items-center justify-center rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-sm font-semibold text-emerald-700 transition hover:bg-emerald-100"
+                className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
               >
+                <Users className="h-4 w-4" />
                 Open Play
               </a>
             ) : (
               <button
                 type="button"
                 disabled
-                className="inline-flex w-full cursor-not-allowed items-center justify-center rounded-2xl border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
               >
+                <Users className="h-4 w-4" />
                 Open Play
               </button>
             )
@@ -127,8 +132,9 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
             <button
               type="button"
               disabled
-              className="inline-flex w-full cursor-not-allowed items-center justify-center rounded-2xl border border-slate-200 bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+              className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
             >
+              <Users className="h-4 w-4" />
               Open Play
             </button>
           )}
