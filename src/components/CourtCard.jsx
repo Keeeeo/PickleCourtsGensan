@@ -80,7 +80,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
               >
                 <CalendarCheck className="h-4 w-4" />
-                Court Booking
+                Book a Court
               </a>
             ) : (
               <button
@@ -89,7 +89,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
                 className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
               >
                 <CalendarCheck className="h-4 w-4" />
-                Court Booking
+                Book a Court
               </button>
             )
           ) : (
@@ -99,7 +99,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
               className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
             >
               <CalendarCheck className="h-4 w-4" />
-              Court Booking
+              Book a Court
             </button>
           )}
 
@@ -112,7 +112,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
                 className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
               >
                 <Users className="h-4 w-4" />
-                Open Play
+                Join Open Play
               </a>
             ) : (
               <button
@@ -121,7 +121,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
                 className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
               >
                 <Users className="h-4 w-4" />
-                Open Play
+                Join Open Play
               </button>
             )
           ) : (
@@ -131,7 +131,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
               className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
             >
               <Users className="h-4 w-4" />
-              Open Play
+              Join Open Play
             </button>
           )}
         </div>

@@ -79,7 +79,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                     className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate bg-slate-100 hover:bg-pickle/15 hover:text-pickle-dark transition-colors"
                   >
                     <Users className="w-4 h-4" />
-                    Open Play
+                    Join Open Play
                   </a>
                 ) : (
                   <button
@@ -88,13 +88,13 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                     className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-400 bg-slate-50 cursor-not-allowed"
                   >
                     <Users className="w-4 h-4" />
-                    Open Play
+                    Join Open Play
                   </button>
                 )
               ) : (
                 <span className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-300 bg-slate-50">
                   <Users className="w-4 h-4" />
-                  Open Play
+                  Join Open Play
                 </span>
               )}
 
@@ -107,7 +107,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                     className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate bg-slate-100 hover:bg-court/15 hover:text-court transition-colors"
                   >
                     <CalendarCheck className="w-4 h-4" />
-                    Court Booking
+                    Book a Court
                   </a>
                 ) : (
                   <button
@@ -116,13 +116,13 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                     className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-400 bg-slate-50 cursor-not-allowed"
                   >
                     <CalendarCheck className="w-4 h-4" />
-                    Court Booking
+                    Book a Court
                   </button>
                 )
               ) : (
                 <span className="flex items-center justify-center gap-2 rounded-xl py-3 text-sm font-semibold text-slate-300 bg-slate-50">
                   <CalendarCheck className="w-4 h-4" />
-                  Court Booking
+                  Book a Court
                 </span>
               )}
             </div>
