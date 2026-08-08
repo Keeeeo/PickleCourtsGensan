@@ -33,13 +33,9 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
           </div>
         )}
 
-        <span className={`absolute left-4 top-4 inline-flex items-center gap-2 rounded-full bg-slate-950/80 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm ${isOpen ? 'border border-emerald-400/50' : 'border border-slate-500/30'}`}>
+        <span className={`absolute right-4 top-4 inline-flex items-center gap-2 rounded-full bg-slate-950/80 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm ${isOpen ? 'border border-emerald-400/50' : 'border border-slate-500/30'}`}>
           <span className={`h-2.5 w-2.5 rounded-full ${isOpen ? 'bg-emerald-400' : 'bg-slate-400'}`} />
           {isOpen ? 'Open' : 'Closed'}
-        </span>
-
-        <span className="absolute right-4 top-4 rounded-full bg-slate-950/80 px-3 py-1.5 text-xs font-semibold text-white backdrop-blur-sm">
-          ₱{court.pricePerHour}/hr
         </span>
       </div>
 
@@ -69,8 +65,8 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
             </span>
           )}
           <span className="h-1 w-1 rounded-full bg-slate-300" />
-          <span className="text-slate-500">
-            {court.booking?.type ? court.booking.type.replace(/\b\w/g, (l) => l.toUpperCase()) : 'Booking info'}
+          <span className="font-semibold text-slate-900">
+            ₱{court.pricePerHour}/hr
           </span>
         </div>
 
