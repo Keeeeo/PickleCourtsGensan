@@ -10,6 +10,7 @@ import CourtDetailPage from './pages/CourtDetailPage'
 import courtsData from './data/courts.json'
 import { useGeolocation } from './hooks/useGeolocation'
 import { haversineDistanceKm } from './utils/haversine'
+import { isCourtOpen } from './utils/courtStatus'
 
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
@@ -17,7 +18,7 @@ export default function App() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sortBy, setSortBy] = useState('name-asc')
-  const [availability, setAvailability] = useState({ openPlay: false, courtBooking: false })
+  const [availability, setAvailability] = useState({ openPlay: false, courtBooking: false, openNow: false })
 
   const { position, status: locationStatus, request: requestLocation } = useGeolocation({ auto: true })
 
@@ -40,6 +41,7 @@ export default function App() {
 
     if (availability.openPlay) list = list.filter((c) => c.hasOpenPlay)
     if (availability.courtBooking) list = list.filter((c) => c.hasCourtBooking)
+    if (availability.openNow) list = list.filter((c) => isCourtOpen(c.openingTime, c.closingTime))
 
     const sorted = [...list].sort((a, b) => {
       switch (sortBy) {
@@ -93,7 +95,10 @@ export default function App() {
                 distances={distances}
                 locationStatus={locationStatus}
                 query={query}
-                onQueryChange={setQuery}                onRequestLocation={requestLocation}                searchOpen={searchOpen}
+                onQueryChange={setQuery}
+                onRequestLocation={requestLocation}
+                onOpenFilters={() => setFiltersOpen(true)}
+                searchOpen={searchOpen}
               />
             }
           />

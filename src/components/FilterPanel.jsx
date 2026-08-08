@@ -1,4 +1,4 @@
-import { X, ArrowDownAZ, ArrowUpZA, Users, CalendarCheck, Navigation, Wallet } from 'lucide-react'
+import { X, ArrowDownAZ, ArrowUpZA, Users, CalendarCheck, Navigation, Wallet, Clock } from 'lucide-react'
 
 export const SORT_OPTIONS = [
   { value: 'name-asc', label: 'Name A–Z', icon: ArrowDownAZ },
@@ -77,6 +77,16 @@ export default function FilterPanel({
           <section>
             <h3 className="text-xs font-sans font-semibold tracking-widest text-slate-500 uppercase mb-3">Availability</h3>
             <div className="space-y-2">
+              <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={availability.openNow}
+                  onChange={() => toggleAvailability('openNow')}
+                  className="w-4 h-4 rounded accent-emerald-600"
+                />
+                <Clock className="w-4 h-4 text-slate-500" />
+                <span className="text-sm font-sans font-medium text-slate-900">Open Now</span>
+              </label>
               <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
                 <input
                   type="checkbox"

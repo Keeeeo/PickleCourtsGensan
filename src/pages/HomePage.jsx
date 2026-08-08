@@ -1,16 +1,7 @@
-import { useState } from 'react'
 import { Search, MapPin, SlidersHorizontal } from 'lucide-react'
 import CardGrid from '../components/CardGrid'
-import FilterPanel from '../components/FilterPanel'
 
-export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, onRequestLocation, searchOpen }) {
-  const [filterOpen, setFilterOpen] = useState(false)
-  const [sortBy, setSortBy] = useState('name-asc')
-  const [availability, setAvailability] = useState({
-    hasOpenPlay: true,
-    hasCourtBooking: true,
-  })
-
+export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, onRequestLocation, onOpenFilters, searchOpen }) {
   return (
     <main className="pb-16 bg-slate-50">
       <section className="relative overflow-hidden bg-white px-4 py-8 shadow-sm md:px-8 md:py-10">
@@ -38,7 +29,7 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
 
             <button
               type="button"
-              onClick={() => setFilterOpen(true)}
+              onClick={onOpenFilters}
               className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
             >
               <SlidersHorizontal className="h-4 w-4" />
@@ -69,16 +60,6 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
           <CardGrid courts={courts} distances={distances} locationStatus={locationStatus} />
         </div>
       </section>
-
-      <FilterPanel
-        open={filterOpen}
-        onClose={() => setFilterOpen(false)}
-        sortBy={sortBy}
-        onSortChange={setSortBy}
-        availability={availability}
-        onAvailabilityChange={setAvailability}
-        locationStatus={locationStatus}
-      />
     </main>
   )
 }
