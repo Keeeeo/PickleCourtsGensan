@@ -11,6 +11,7 @@ import {
   Navigation,
 } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
+import { isCourtOpen } from '../utils/courtStatus'
 
 export default function CourtDetailPage({ courts, distances, locationStatus }) {
   const { id } = useParams()
@@ -18,7 +19,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
 
   if (!court) return <Navigate to="/" replace />
 
-  const isOpen = court.status === 'open'
+  const isOpen = isCourtOpen(court.openingTime, court.closingTime)
   const bookingUrl = court.booking?.url
   const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
   const externalRel = externalTarget ? 'noreferrer' : undefined

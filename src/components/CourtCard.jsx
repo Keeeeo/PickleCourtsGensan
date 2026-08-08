@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { MapPin, Navigation, Users, CalendarCheck, CircleDot } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
+import { isCourtOpen } from '../utils/courtStatus'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
   const [hasImageError, setHasImageError] = useState(false)
-  const isOpen = court.status === 'open'
+  const isOpen = isCourtOpen(court.openingTime, court.closingTime)
   const bookingUrl = court.booking?.url
   const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
   const externalRel = externalTarget ? 'noreferrer' : undefined

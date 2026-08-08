@@ -3,11 +3,12 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import { Crosshair, Users, CalendarCheck } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
+import { isCourtOpen } from '../utils/courtStatus'
 
 const GENSAN_CENTER = [6.1167, 125.1716]
 
-function courtIcon(status) {
-  const color = status === 'open' ? '#10B981' : '#64748B'
+function courtIcon(isOpen) {
+  const color = isOpen ? '#10B981' : '#64748B'
   return L.divIcon({
     className: '',
     html: `
@@ -54,9 +55,9 @@ export default function MapView({ courts, distances, position, locationStatus, o
 
   const icons = useMemo(() => {
     const cache = {}
-    return (status) => {
-      if (!cache[status]) cache[status] = courtIcon(status)
-      return cache[status]
+    return (isOpen) => {
+      if (!(isOpen in cache)) cache[isOpen] = courtIcon(isOpen)
+      return cache[isOpen]
     }
   }, [])
 
@@ -84,7 +85,11 @@ export default function MapView({ courts, distances, position, locationStatus, o
         />
 
         {courts.map((court) => (
-          <Marker key={court.id} position={[court.latitude, court.longitude]} icon={icons(court.status)}>
+          <Marker
+            key={court.id}
+            position={[court.latitude, court.longitude]}
+            icon={icons(isCourtOpen(court.openingTime, court.closingTime))}
+          >
             <Popup>
               <div className="p-3">
                 <p className="font-display font-700 text-slate text-sm">{court.name}</p>
