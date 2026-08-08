@@ -42,31 +42,31 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
           Back
         </Link>
 
-        <span
-          className={`absolute top-4 right-4 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold ${
-            isOpen ? 'bg-pickle text-white' : 'bg-slate-500 text-white'
-          }`}
-        >
-          <span className={`w-1.5 h-1.5 rounded-full ${isOpen ? 'bg-white' : 'bg-slate-300'}`} />
-          {isOpen ? 'Open' : 'Closed'}
-        </span>
-
-        <div className="absolute inset-x-0 bottom-0 px-4 md:px-8 pb-5 max-w-6xl mx-auto left-0 right-0">
-          <h1 className="font-display font-700 text-2xl md:text-4xl text-white leading-tight">
-            {court.name}
-          </h1>
-          <p className="mt-1 flex items-center gap-1.5 text-white/90 text-sm">
-            <MapPin className="w-4 h-4 shrink-0" />
-            {court.address}
-          </p>
-        </div>
-      </div>
+        <div className="absolute inset-x-0 bottom-0 px-4 md:px-8 pb-5 max-w-6xl mx-auto left-0 right-0 flex items-end justify-between">
+          <div>
+            <h1 className="font-sans font-bold text-2xl md:text-4xl text-white leading-tight">
+              {court.name}
+            </h1>
+            <p className="mt-1 flex items-center gap-1.5 text-white/90 text-sm">
+              <MapPin className="w-4 h-4 shrink-0" />
+              {court.address}
+            </p>
+          </div>
+          <span
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold ${
+              isOpen ? 'bg-emerald-500 text-white' : 'bg-slate-500 text-white'
+            }`}
+          >
+            <span className={`w-2 h-2 rounded-full ${isOpen ? 'bg-white' : 'bg-slate-300'}`} />
+            {isOpen ? 'Open' : 'Closed'}
+          </span>
+        </div>      </div>
 
       <div className="max-w-6xl mx-auto px-4 md:px-8 mt-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
         {/* Left column: details */}
         <div className="lg:col-span-2 space-y-8">
           <section className="bg-white rounded-card shadow-card p-5 md:p-6">
-            <h2 className="font-display font-700 text-lg text-slate mb-4">Open Play & Court Booking</h2>
+            <h2 className="font-sans font-bold text-lg text-slate-900 mb-4">Open Play & Court Booking</h2>
             <p className="text-slate-600 text-sm leading-relaxed">{court.scheduleNote}</p>
 
             <div className="mt-4 grid grid-cols-2 gap-3">
@@ -130,7 +130,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
 
           {court.gallery?.length > 0 && (
             <section>
-              <h2 className="font-display font-700 text-lg text-slate mb-3">Courts & Location</h2>
+              <h2 className="font-sans font-bold text-lg text-slate-900 mb-3">Courts & Location</h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
                 {court.gallery.map((src, i) => (
                   <div key={i} className="aspect-square rounded-xl overflow-hidden bg-slate-100">
@@ -150,7 +150,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
         {/* Right column: contact + booking */}
         <aside className="space-y-5">
           <div className="bg-white rounded-card shadow-card p-5">
-            <h2 className="font-display font-700 text-base text-slate mb-3">Contact</h2>
+            <h2 className="font-sans font-bold text-base text-slate-900 mb-3">Contact</h2>
             <ul className="space-y-2.5 text-sm">
               <li className="flex items-start gap-2.5 text-slate-600">
                 <MapPin className="w-4 h-4 shrink-0 mt-0.5 text-court" />
