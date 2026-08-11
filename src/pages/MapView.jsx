@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
 import L from 'leaflet'
-import { Crosshair, Users, CalendarCheck } from 'lucide-react'
+import { Crosshair, Users, CalendarCheck, MapPin, Navigation } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
 
@@ -84,42 +84,126 @@ export default function MapView({ courts, distances, position, locationStatus, o
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        {courts.map((court) => (
-          <Marker
-            key={court.id}
-            position={[court.latitude, court.longitude]}
-            icon={icons(isCourtOpen(court.openingTime, court.closingTime))}
-          >
-            <Popup>
-              <div className="p-3">
-                <p className="font-display font-700 text-slate text-sm">{court.name}</p>
-                <p className="text-xs text-slate-500 mt-1">{court.address}</p>
-                <div className="mt-2 flex items-center justify-between text-xs">
-                  <span className="font-mono font-semibold text-slate-700">₱{court.pricePerHour}/hr</span>
-                  {locationStatus === 'granted' && distances?.[court.id] != null && (
-                    <span className="text-court font-semibold">{formatDistance(distances[court.id])}</span>
+        {courts.map((court) => {
+          const bookingUrl = court.booking?.url
+          const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
+          const externalRel = externalTarget ? 'noreferrer' : undefined
+          const distanceKm = distances?.[court.id]
+
+          return (
+            <Marker
+              key={court.id}
+              position={[court.latitude, court.longitude]}
+              icon={icons(isCourtOpen(court.openingTime, court.closingTime))}
+            >
+              <Popup>
+                <div className="flex flex-col gap-4 p-5">
+                  <div className="space-y-3">
+                    <p className="text-lg font-semibold tracking-tight text-slate-900">{court.name}</p>
+                    <p className="flex items-center gap-2 text-sm text-slate-500">
+                      <MapPin className="h-4 w-4 shrink-0 text-emerald-600" />
+                      <span className="truncate">{court.address}</span>
+                    </p>
+                  </div>
+
+                  <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500">
+                    {locationStatus === 'granted' && distanceKm != null ? (
+                      <span className="inline-flex items-center gap-1 font-semibold text-emerald-700">
+                        <Navigation className="h-4 w-4" />
+                        {formatDistance(distanceKm)}
+                      </span>
+                    ) : (
+                      <span className="inline-flex items-center gap-1 font-medium text-slate-400">
+                        <Navigation className="h-4 w-4" />
+                        Location off
+                      </span>
+                    )}
+                    <span className="h-1 w-1 rounded-full bg-slate-300" />
+                    <span className="font-semibold text-slate-900">₱{court.pricePerHour}/hr</span>
+                  </div>
+
+                  <div className="flex flex-col gap-3">
+                    {court.hasCourtBooking ? (
+                      bookingUrl ? (
+                        <a
+                          href={bookingUrl}
+                          target={externalTarget}
+                          rel={externalRel}
+                          className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
+                        >
+                          <CalendarCheck className="h-4 w-4" />
+                          Book a Court
+                        </a>
+                      ) : (
+                        <button
+                          type="button"
+                          disabled
+                          className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                        >
+                          <CalendarCheck className="h-4 w-4" />
+                          Book a Court
+                        </button>
+                      )
+                    ) : (
+                      <button
+                        type="button"
+                        disabled
+                        className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                      >
+                        <CalendarCheck className="h-4 w-4" />
+                        Book a Court
+                      </button>
+                    )}
+
+                    {court.hasOpenPlay ? (
+                      bookingUrl ? (
+                        <a
+                          href={bookingUrl}
+                          target={externalTarget}
+                          rel={externalRel}
+                          className="inline-flex items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-700 shadow-sm transition hover:bg-slate-200"
+                        >
+                          <Users className="h-4 w-4" />
+                          Join Open Play
+                        </a>
+                      ) : (
+                        <button
+                          type="button"
+                          disabled
+                          className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                        >
+                          <Users className="h-4 w-4" />
+                          Join Open Play
+                        </button>
+                      )
+                    ) : (
+                      <button
+                        type="button"
+                        disabled
+                        className="inline-flex cursor-not-allowed items-center justify-center gap-2 rounded-2xl bg-slate-100 px-4 py-3 text-sm font-semibold text-slate-400"
+                      >
+                        <Users className="h-4 w-4" />
+                        Join Open Play
+                      </button>
+                    )}
+                  </div>
+
+                  {court.googleMapsUrl && (
+                    <a
+                    className="inline-flex items-center justify-center gap-2 rounded-2xl bg-emerald-600 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
+                      href={court.googleMapsUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <MapPin className="h-4 w-4 text-white" />
+                      <span className='!text-white'>Get Directions</span>
+                    </a>
                   )}
                 </div>
-                <div className="mt-3 grid grid-cols-2 gap-1.5">
-                  <span
-                    className={`flex items-center justify-center gap-1 rounded-lg py-1.5 text-[11px] font-medium ${
-                      court.hasOpenPlay ? 'bg-pickle/15 text-pickle-dark' : 'bg-slate-50 text-slate-300'
-                    }`}
-                  >
-                    <Users className="w-3 h-3" /> Open Play
-                  </span>
-                  <span
-                    className={`flex items-center justify-center gap-1 rounded-lg py-1.5 text-[11px] font-medium ${
-                      court.hasCourtBooking ? 'bg-court/15 text-court' : 'bg-slate-50 text-slate-300'
-                    }`}
-                  >
-                    <CalendarCheck className="w-3 h-3" /> Booking
-                  </span>
-                </div>
-              </div>
-            </Popup>
-          </Marker>
-        ))}
+              </Popup>
+            </Marker>
+          )
+        })}
 
         {position && <Marker position={[position.latitude, position.longitude]} icon={userIcon} />}
 

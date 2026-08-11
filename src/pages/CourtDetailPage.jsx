@@ -54,11 +54,11 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
             </p>
           </div>
           <span
-            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold ${
-              isOpen ? 'bg-emerald-500 text-white' : 'bg-slate-500 text-white'
+            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-bold uppercase tracking-wide text-white shadow-lg ring-2 ring-white/80 ${
+              isOpen ? 'bg-emerald-500' : 'bg-rose-600'
             }`}
           >
-            <span className={`w-2 h-2 rounded-full ${isOpen ? 'bg-white' : 'bg-slate-300'}`} />
+            <span className={`w-2 h-2 rounded-full bg-white ${isOpen ? 'animate-pulse' : ''}`} />
             {isOpen ? 'Open' : 'Closed'}
           </span>
         </div>      </div>
@@ -215,6 +215,18 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
               className="flex items-center justify-center gap-2 w-full bg-pickle hover:bg-pickle-dark text-white font-semibold text-sm py-3.5 rounded-xl shadow-card transition-colors"
             >
               {court.booking.label || 'Book now'}
+            </a>
+          )}
+
+          {court.googleMapsUrl && (
+            <a
+              href={court.googleMapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center gap-2 w-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-sm py-3.5 rounded-xl transition-colors"
+            >
+              <MapPin className="w-4 h-4" />
+              Get Directions
             </a>
           )}
 
