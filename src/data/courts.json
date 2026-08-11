@@ -26,7 +26,7 @@
     "scheduleNote": "Open daily 5:00 PM onwards. Features 1 exclusive court with Acreex rubberized paint, dining area, paddle rentals, and wide parking.",
     "booking": {
       "type": "courtysy",
-      "url": "https://courtysy.com/venues/tranquil-bounce",
+      "url": "https://courtysy.com/o/tranquilbounce?fbclid=IwY2xjawToMFhwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMVRKMXlPMzhPOWY5Y3duaENzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe6ht3J7jd7foTOac8Qa-bro89OjGWKtVhrpvIlEW-hxvCUuR0jqGrAgEo-Gg_aem_EZeSJdARXyT72R4BvoHtig",
       "label": "Book on Courtysy"
     }
   },
@@ -348,7 +348,7 @@
     "longitude": 125.168,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1178,125.168",
     "openingTime": "06:00",
-    "closingTime": "22:00",
+    "closingTime": "2:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
@@ -367,7 +367,7 @@
     "scheduleNote": "Open daily. Official JOOLA facility featuring 9 courts (4 indoor & 5 outdoor), on-site café, equipment rental, and coaching. Rate ₱250–₱300/hr.",
     "booking": {
       "type": "sport360",
-      "url": "https://sport360.app/venue/altori-park",
+      "url": "https://app.sports360.ph/sportshub/altori-park-pickleball",
       "label": "Book on Sport360"
     }
   },
