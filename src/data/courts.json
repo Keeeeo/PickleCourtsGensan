@@ -413,7 +413,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": 150,
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -426,7 +426,7 @@
       "email": "fora.gensan@gmail.com",
       "facebook": "https://www.facebook.com/Foragsc"
     },
-    "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering outdoor pickleball courts. Rate ₱100–₱150/hr.",
+    "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering outdoor pickleball courts. Rate ₱100–₱150/hr. For Courts 1 and 2 please bring coins for lights.",
     "booking": {
       "type": "messenger",
       "url": "https://www.facebook.com/Foragsc",
@@ -437,59 +437,59 @@
     "id": "jp-pickleball-academy",
     "name": "J&P Pickleball Academy",
     "address": "Pancubila Street, Barangay San Isidro, General Santos City",
-    "latitude": 6.1341,
-    "longitude": 125.1852,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1341,125.1852",
+    "latitude": 6.1441594,
+    "longitude": 125.1787776,
+    "googleMapsUrl": "https://maps.app.goo.gl/CuW2yAVMAm53yegQA",
     "openingTime": "06:00",
     "closingTime": "23:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 250,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 920 987 6543",
       "email": "jandp.pickleball@gmail.com",
-      "facebook": "https://facebook.com/jandppickleball"
+      "facebook": "https://www.facebook.com/jppickleballacademy"
     },
     "scheduleNote": "Features 1 covered court and 2 open courts. Offers court rentals and structured training sessions.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/jandppickleball",
-      "label": "Message on Messenger"
+      "type": "custom",
+      "url": "https://bookingdyno.com/publicview/businesspage/J&P-Pickleball-Academy/J&P-Pickleball-Academy?id=%7B%22iv%22%3A%2247a2d7421e3297fa83a45e7f45a6c8c6%22%2C%22content%22%3A%22befc246392ad079e2580c444e8c9a0%22%2C%22tag%22%3A%22a8a62b42db4cf9e058e0384926ff6c77%22%7D",
+      "label": "Book on BookingDyno"
     }
   },
   {
     "id": "the-pickle-neighbour",
     "name": "The Pickle Neighbour",
-    "address": "Lagao, General Santos City",
-    "latitude": 6.1265,
-    "longitude": 125.1889,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1265,125.1889",
+    "address": "Romana Estate, 2 Dacera Street, Barangay City Heights, General Santos City",
+    "latitude": 6.1242251,
+    "longitude": 125.1582713,
+    "googleMapsUrl": "https://maps.app.goo.gl/WQfc8mDKhgCkY8AY6",
     "openingTime": "07:00",
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 918 000 1122",
+      "phone": "+63 949 568 7197",
       "email": "pickleneighbour@gmail.com",
-      "facebook": "https://facebook.com/thepickleneighbour"
+      "facebook": "https://www.facebook.com/profile.php?id=61581589960377"
     },
-    "scheduleNote": "Friendly neighborhood court suitable for open plays, quick games, and practice drills.",
+    "scheduleNote": "Friendly neighborhood court suitable for open plays, quick games, and practice drills. Rates: ₱215/hr (5AM-5PM) & ₱315/hr (5PM-2AM).",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/thepickleneighbour",
-      "label": "Message on Messenger"
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/the-pickle-neighbour?fbclid=IwY2xjawTqXO9wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMVJDUWVQYU1vcHFaclo5c0dzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEetqE7W8_DJbNLsPEHcGW586RPXyiqMFzFIquqQuXbdCqVUnVy34uNVAnAj7Y_aem_HpzZMJZs3s2fKdeO3-eK2A",
+      "label": "Book on PickleHub"
     }
   },
   {
@@ -499,11 +499,11 @@
     "latitude": 6.1088,
     "longitude": 125.1842,
     "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1088,125.1842",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
+    "openingTime": "01:00",
+    "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 220,
+    "pricePerHour": 250,
     "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -514,11 +514,11 @@
       "email": "summerpickle.perks@gmail.com",
       "facebook": "https://facebook.com/summerpickleandperks"
     },
-    "scheduleNote": "Your go-to destination for pickleball, great coffee, and good vibes in Brgy. Bula.",
+    "scheduleNote": "Your go-to destination for pickleball, great coffee, and good vibes in Brgy. Bula. Rates: ₱250/hr (12MN-6PM) & ₱300/hr (6PM-12MN)",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/summerpickleandperks",
-      "label": "Message on Messenger"
+      "type": "sport360",
+      "url": "https://app.sports360.ph/sportshub/summer-pickle-and-perks-bula?fbclid=IwY2xjawTqXj1wZG9mBWV4dG4DYWVtAjEwAGJyaWQRMVJDUWVQYU1vcHFaclo5c0dzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEekUfus4mahIOTIbNzWqQbtPBEG-fQwdoEF1feZN63YOI5DGDdsvO65zY3nuI_aem_KcXc3Tr5BwCI6qpLhRGxbw",
+      "label": "Book on Sport360"
     }
   },
   {
@@ -533,10 +533,10 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 917 333 4455",
