@@ -840,177 +840,91 @@
       "label": "WALK-INS ONLY"
     }
   },
-  {
-    "id": "third-shot-pickleground",
-    "name": "Third Shot Pickleground Gensan",
-    "address": "Brgy. San Isidro, General Santos City",
-    "latitude": 6.1362,
-    "longitude": 125.1795,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1362,125.1795",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 922 888 1122",
-      "email": "thirdshotgensan@gmail.com",
-      "facebook": "https://facebook.com/thirdshotgensan"
-    },
-    "scheduleNote": "Modern facility designed with high-grade court surfaces and lounge space.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/thirdshotgensan",
-      "label": "Message on Messenger"
-    }
-  },
+  
   {
     "id": "jg-oranza-sports-arena",
     "name": "JG Oranza Sports Arena",
-    "address": "General Santos City",
-    "latitude": 6.122,
-    "longitude": 125.163,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.122,125.163",
+    "address": "465P+VXM, Buayan, General Santos City",
+    "latitude": 6.1096829,
+    "longitude": 125.2372273,
+    "googleMapsUrl": "https://maps.app.goo.gl/D1UPgxpJwzCn7LqSA",
     "openingTime": "07:00",
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 300,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 918 222 9988",
-      "email": "jgoranzaarena@gmail.com",
-      "facebook": "https://facebook.com/jgoranzasportsarena"
+      "phone": "+63 956 261 7556",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61586987219667"
     },
     "scheduleNote": "Multi-purpose sports arena accommodating pickleball tournaments and daily play.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/jgoranzasportsarena",
-      "label": "Message on Messenger"
+      "type": "phone",
+      "url": "https://www.facebook.com/profile.php?id=61586987219667",
+      "label": "Call or Message +63 956 261 7556"
     }
   },
   {
     "id": "the-paddle-club-pickleball",
     "name": "The Paddle Club Pickleball",
-    "address": "General Santos City",
-    "latitude": 6.114,
-    "longitude": 125.17,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.114,125.17",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
+    "address": "Tiongson St, Barangay Lagao, General Santos City",
+    "latitude": 6.1272335,
+    "longitude": 125.192471,
+    "googleMapsUrl": "https://maps.app.goo.gl/V2U6DVJAbDcS8qRL6",
+    "openingTime": "00:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 300,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 333 1111",
-      "email": "thepaddleclubgensan@gmail.com",
-      "facebook": "https://facebook.com/thepaddleclubgensan"
+      "phone": "+63 930 745 8212",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61559699180747"
     },
-    "scheduleNote": "Community pickleball club providing open play rotation system.",
+    "scheduleNote": "Community pickleball club providing open play rotation system. Rates: ₱300/hr (5AM-5PM) & ₱350/hr (5PM-5AM)",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/thepaddleclubgensan",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "pickle-world",
-    "name": "Pickle World",
-    "address": "NCCC Compound, National Highway, General Santos City",
-    "latitude": 6.1205,
-    "longitude": 125.174,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1205,125.174",
-    "openingTime": "06:00",
-    "closingTime": "02:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 310,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 956 283 1362",
-      "email": "pickleworld.gsc@gmail.com",
-      "facebook": "https://facebook.com/pickleworldgensan"
-    },
-    "scheduleNote": "Open daily 6:00 AM – 2:00 AM. Premier pickleball facility featuring silica sand finish courts.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/pickleworldgensan",
-      "label": "Message on Messenger"
+      "type": "courtysy",
+      "url": "https://courtysy.com/o/thepaddleclub?fbclid=IwY2xjawTqxxhwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMU1KRjA1SG03enl4N0ZDVE9zcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEec63mS2tMNimjluD3iiw_tS8xCSfubTEr-hJJWUm_KcOuuKurh3zC_zccjc4_aem_FGpBivunDKXnZ5SP_EdCcw",
+      "label": "Book on Courtysy"
     }
   },
   {
     "id": "rally-point-gensan",
     "name": "Rally Point Gensan",
-    "address": "Lagao, General Santos City",
+    "address": "Behind GSIS Office, National Highway, General Santos City",
     "latitude": 6.1275,
     "longitude": 125.186,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1275,125.186",
+    "googleMapsUrl": "https://maps.app.goo.gl/LsqVfPhH8BdnHfS27",
     "openingTime": "06:00",
-    "closingTime": "22:00",
+    "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 928 444 3322",
-      "email": "rallypointgensan@gmail.com",
-      "facebook": "https://facebook.com/rallypointgensan"
+      "phone": "",
+      "email": "emelbprudente@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61584113888846"
     },
-    "scheduleNote": "Cozy pickleball court venue with active daily ladder matches.",
+    "scheduleNote": "Cozy pickleball court venue with active daily ladder matches. Rates: ₱150/hr (6AM-4PM) & ₱350/hr (4PM-12MN).",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/rallypointgensan",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "court-zero-racquet-club",
-    "name": "Court Zero Racquet Club",
-    "address": "City Heights, General Santos City",
-    "latitude": 6.125,
-    "longitude": 125.169,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.125,125.169",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 919 777 6655",
-      "email": "courtzeroracquet@gmail.com",
-      "facebook": "https://facebook.com/courtzeroracquetclub"
-    },
-    "scheduleNote": "Premium racquet club specializing in pickleball and community tournaments.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/courtzeroracquetclub",
+      "url": "https://www.facebook.com/profile.php?id=61584113888846",
       "label": "Message on Messenger"
     }
   },
