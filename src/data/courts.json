@@ -669,30 +669,30 @@
   {
     "id": "picklehub-and-cafe",
     "name": "Picklehub & Cafe",
-    "address": "Aparente St, City Heights, General Santos City",
-    "latitude": 6.1248,
-    "longitude": 125.1712,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1248,125.1712",
-    "openingTime": "07:00",
-    "closingTime": "23:00",
+    "address": "Barangay Dadiangas North, Velasquez Street, General Santos City",
+    "latitude": 6.1181643,
+    "longitude": 125.1655956,
+    "googleMapsUrl": "https://maps.app.goo.gl/aCQzdFuXJGtAk9VU6",
+    "openingTime": "00:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 220,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 315,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 930 777 8899",
-      "email": "picklehubcafe@gmail.com",
-      "facebook": "https://facebook.com/picklehubcafe"
+      "phone": "+63 952 457 6098",
+      "email": "picklehubandcafe23@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61591814360228"
     },
-    "scheduleNote": "Play pickleball and enjoy specialty coffee and snacks under one roof.",
+    "scheduleNote": "Play pickleball and enjoy specialty coffee and snacks under one roof. Rates: ₱315/hr (6AM-5PM) & ₱365/hr (5PM-6AM)",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/picklehubcafe",
-      "label": "Message on Messenger"
+      "type": "Courtly",
+      "url": "https://www.courtly.cc/book/picklehub-cafe",
+      "label": "Book on Courtly"
     }
   },
   {
