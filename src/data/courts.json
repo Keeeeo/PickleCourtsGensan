@@ -1018,29 +1018,29 @@
   {
     "id": "mamikilay",
     "name": "Mamikilay",
-    "address": "General Santos City",
-    "latitude": 6.112,
-    "longitude": 125.171,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.112,125.171",
+    "address": "44R7+747, Purok Lower Cabuay Rd, Brgy. Sinawal, General Santos City",
+    "latitude": 6.1406109,
+    "longitude": 125.1127491,
+    "googleMapsUrl": "https://maps.app.goo.gl/P4wZLTpFNFDp41p28",
     "openingTime": "07:00",
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 180,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 922 555 4433",
-      "email": "mamikilaygensan@gmail.com",
-      "facebook": "https://facebook.com/mamikilay"
+      "phone": "+63 949 878 3355",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61591607160840"
     },
     "scheduleNote": "Local sports and diner spot offering outdoor court access.",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/mamikilay",
+      "url": "https://www.facebook.com/profile.php?id=61591607160840",
       "label": "Message on Messenger"
     }
   },
