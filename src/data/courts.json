@@ -127,8 +127,8 @@
     "id": "nrt-events-center",
     "name": "NRT Events Center",
     "address": "Purok Cañas, Brgy. San Isidro, General Santos City",
-    "latitude": 6.1611253,
-    "longitude": 125.1646981,
+    "latitude": 6.1610663,
+    "longitude": 125.1671342,
     "googleMapsUrl": "https://maps.app.goo.gl/FXhF1UMMhe4HNMeG9",
     "openingTime": "06:00",
     "closingTime": "00:00",
@@ -989,29 +989,29 @@
   {
     "id": "the-loom-and-the-leaf",
     "name": "The Loom & The Leaf Weekend Market",
-    "address": "General Santos City",
-    "latitude": 6.116,
-    "longitude": 125.168,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.116,125.168",
+    "address": "Nopo-Conel, Mabuhay Road, General Santos City",
+    "latitude": 6.1689173,
+    "longitude": 125.1606668,
+    "googleMapsUrl": "https://maps.app.goo.gl/2GmVyEoP6E2Z9D1X6",
     "openingTime": "08:00",
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 919 444 3322",
-      "email": "theloomandleaf@gmail.com",
-      "facebook": "https://facebook.com/theloomandleaf"
+      "phone": "+63 917 712 4500",
+      "email": "dee_092284@yahoo.com.ph",
+      "facebook": "https://www.facebook.com/profile.php?id=61592248661022"
     },
-    "scheduleNote": "Pop-up pickleball court hosted alongside artisan weekend market stalls.",
+    "scheduleNote": "Here at Looms Pickle Club, it’s all about a little competition, lots of cheering, and endless laughter. Silica Courts await.",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/theloomandleaf",
+      "url": "https://www.facebook.com/profile.php?id=61592248661022",
       "label": "Message on Messenger"
     }
   },
@@ -1099,35 +1099,6 @@
     "booking": {
       "type": "messenger",
       "url": "https://m.me/gensanrackets",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "side-out",
-    "name": "Side Out",
-    "address": "General Santos City",
-    "latitude": 6.126,
-    "longitude": 125.183,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.126,125.183",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 928 111 0022",
-      "email": "sideoutgensan@gmail.com",
-      "facebook": "https://facebook.com/sideoutgensan"
-    },
-    "scheduleNote": "Casual pickleball court with equipment rental and open play games.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/sideoutgensan",
       "label": "Message on Messenger"
     }
   },
