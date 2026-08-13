@@ -496,9 +496,9 @@
     "id": "summer-pickle-and-perks",
     "name": "Summer Pickle and Perks",
     "address": "Zone 9, Brgy. Bula, beside Mr. Snow, in front of Sto. Niño de Bula Parish, General Santos City",
-    "latitude": 6.1088,
-    "longitude": 125.1842,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1088,125.1842",
+    "latitude": 6.1068263,
+    "longitude": 125.1926143,
+    "googleMapsUrl": "https://maps.app.goo.gl/X3mmWGpGHkwY7XReA",
     "openingTime": "01:00",
     "closingTime": "01:00",
     "hasOpenPlay": true,
@@ -510,7 +510,7 @@
       "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 995 111 2233",
+      "phone": "+63 975 446 5194",
       "email": "summerpickle.perks@gmail.com",
       "facebook": "https://facebook.com/summerpickleandperks"
     },
@@ -524,30 +524,30 @@
   {
     "id": "lps-homecourt",
     "name": "LPS Homecourt",
-    "address": "San Isidro, General Santos City",
-    "latitude": 6.138,
-    "longitude": 125.181,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.138,125.181",
-    "openingTime": "07:00",
-    "closingTime": "22:00",
+    "address": "Fil-Am Road, Brgy. Calumpang",
+    "latitude": 6.0720785,
+    "longitude": 125.1343775,
+    "googleMapsUrl": "https://maps.app.goo.gl/JcRmkEGerEz8uzSn9",
+    "openingTime": "06:00",
+    "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": 280,
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 333 4455",
+      "phone": "+63 927 614 7022",
       "email": "lpshomecourt@gmail.com",
-      "facebook": "https://facebook.com/lpshomecourt"
+      "facebook": "https://www.facebook.com/profile.php?id=61589329170329"
     },
-    "scheduleNote": "Private homecourt style facility open for public rentals and casual play.",
+    "scheduleNote": "Private homecourt style facility open for public rentals and casual play. Rates: ₱280/hr (12MN-6PM) & ₱300/hr (6PM-12MN)",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/lpshomecourt",
-      "label": "Message on Messenger"
+      "type": "sport360",
+      "url": "https://app.sports360.ph/sportshub/lps-homecourt",
+      "label": "Book on Sport360"
     }
   },
   {
