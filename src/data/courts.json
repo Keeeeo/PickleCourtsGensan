@@ -960,59 +960,30 @@
   {
     "id": "v-park",
     "name": "V-Park",
-    "address": "Brgy. Mabuhay, General Santos City",
-    "latitude": 6.135,
-    "longitude": 125.195,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.135,125.195",
+    "address": "General Santos City Circumferential, Velayo Farm, General Santos City",
+    "latitude": 6.1603305,
+    "longitude": 125.1668708,
+    "googleMapsUrl": "https://maps.app.goo.gl/r4DKE86F9w8vsw548",
     "openingTime": "06:00",
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 265,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 123 9876",
-      "email": "vparkgensan@gmail.com",
-      "facebook": "https://facebook.com/vparkgensan"
+      "phone": "+63 916 629 1443",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61589409824244"
     },
-    "scheduleNote": "Outdoor sports park featuring converted pickleball courts and snack bar.",
+    "scheduleNote": "Outdoor sports park featuring converted pickleball courts and snack bar. Rate: ₱265/hr",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/vparkgensan",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "dlotte-picklepark",
-    "name": "D’Lotte Picklepark",
-    "address": "San Isidro, General Santos City",
-    "latitude": 6.133,
-    "longitude": 125.182,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.133,125.182",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 928 333 2211",
-      "email": "dlottepicklepark@gmail.com",
-      "facebook": "https://facebook.com/dlottepicklepark"
-    },
-    "scheduleNote": "Relaxed park court setting ideal for families and casual pickleball sets.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/dlottepicklepark",
-      "label": "Message on Messenger"
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/v-park?tab=home",
+      "label": "Book on PickleHub"
     }
   },
   {
@@ -1219,35 +1190,6 @@
     }
   },
   {
-    "id": "altori",
-    "name": "Altori",
-    "address": "General Santos City",
-    "latitude": 6.128,
-    "longitude": 125.173,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.128,125.173",
-    "openingTime": "08:00",
-    "closingTime": "22:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 220,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 918 555 1212",
-      "email": "altori.gensan@gmail.com",
-      "facebook": "https://facebook.com/altorigensan"
-    },
-    "scheduleNote": "Lifestyle venue offering boutique pickleball court rentals.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/altorigensan",
-      "label": "Message on Messenger"
-    }
-  },
-  {
     "id": "dok-mahauron-garden",
     "name": "Dok Mahauron Garden",
     "address": "General Santos City",
@@ -1302,93 +1244,6 @@
     "booking": {
       "type": "messenger",
       "url": "https://m.me/picklebullkwiky",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "dink-o-clock",
-    "name": "Dink O CLock",
-    "address": "San Isidro, General Santos City",
-    "latitude": 6.1355,
-    "longitude": 125.178,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1355,125.178",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 920 123 4455",
-      "email": "dinkoclock@gmail.com",
-      "facebook": "https://facebook.com/dinkoclock"
-    },
-    "scheduleNote": "Popular spot for open play sessions and dink practice matches.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/dinkoclock",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "nrt-events-center",
-    "name": "NRT Events Center",
-    "address": "Purok Cañas, Brgy. San Isidro, General Santos City",
-    "latitude": 6.137,
-    "longitude": 125.183,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.137,125.183",
-    "openingTime": "06:00",
-    "closingTime": "00:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 150,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 918 333 7788",
-      "email": "nrteventscenter@gmail.com",
-      "facebook": "https://facebook.com/nrteventscenter"
-    },
-    "scheduleNote": "Features 4 indoor and 2 outdoor pickleball courts. Daytime rate ₱150/hr, night rate ₱250/hr.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/nrteventscenter",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "picklepals",
-    "name": "Picklepals",
-    "address": "General Santos City",
-    "latitude": 6.12,
-    "longitude": 125.172,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.12,125.172",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 917 666 8899",
-      "email": "picklepalsgensan@gmail.com",
-      "facebook": "https://facebook.com/picklepalsgensan"
-    },
-    "scheduleNote": "Welcoming court community catering to beginners and social picklers.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/picklepalsgensan",
       "label": "Message on Messenger"
     }
   },
