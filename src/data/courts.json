@@ -786,87 +786,58 @@
     "id": "gmall-pickleball-gensan",
     "name": "Gmall Pickleball Gensan",
     "address": "Gaisano Mall General Santos, J. Catolico Sr. Ave, General Santos City",
-    "latitude": 6.1182,
-    "longitude": 125.1815,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1182,125.1815",
+    "latitude": 6.118277,
+    "longitude": 125.1843819,
+    "googleMapsUrl": "https://maps.app.goo.gl/YZ7vCmUtkmo2uacG9",
     "openingTime": "10:00",
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 888 7766",
+      "phone": "+63 956 263 3197",
       "email": "gmall.pickleball@gmail.com",
-      "facebook": "https://facebook.com/gmallpickleballgensan"
+      "facebook": "https://www.facebook.com/profile.php?id=61581327036795"
     },
-    "scheduleNote": "Conveniently located inside Gaisano Mall with air-conditioned comfort.",
+    "scheduleNote": "Conveniently located inside Gaisano Mall with air-conditioned comfort. WALK-INS Only",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/gmallpickleballgensan",
-      "label": "Message on Messenger"
+      "type": "walk-in",
+      "url": "https://www.facebook.com/profile.php?id=61581327036795",
+      "label": "WALK-INS ONLY"
     }
   },
   {
     "id": "robinson-pickleball",
     "name": "Robinson Pickleball",
     "address": "Robinsons Place GenSan, J. Catolico Sr. Ave, General Santos City",
-    "latitude": 6.1218,
-    "longitude": 125.1802,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1218,125.1802",
+    "latitude": 6.1202927,
+    "longitude": 125.1894801,
+    "googleMapsUrl": "https://maps.app.goo.gl/C2J2Fth5ZbtQd1gX7",
     "openingTime": "10:00",
     "closingTime": "21:00",
     "hasOpenPlay": true,
-    "hasCourtBooking": true,
+    "hasCourtBooking": false,
     "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 920 111 2233",
-      "email": "robinsonspickleball@gmail.com",
-      "facebook": "https://facebook.com/robinsonspickleball"
+      "phone": "",
+      "email": "",
+      "facebook": "https://www.facebook.com/RobGenSan"
     },
-    "scheduleNote": "Mall-based court venue open during regular mall operating hours.",
+    "scheduleNote": "Mall-based court venue open during regular mall operating hours. WALK-INS Only First Come First Serve Basis, Paddle Stacking Allowed",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/robinsonspickleball",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "sm-pickleball",
-    "name": "SM Pickleball",
-    "address": "SM City General Santos, San Mateo Rd, General Santos City",
-    "latitude": 6.1172,
-    "longitude": 125.1765,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1172,125.1765",
-    "openingTime": "10:00",
-    "closingTime": "21:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 917 555 1234",
-      "email": "smpickleballgensan@gmail.com",
-      "facebook": "https://facebook.com/smpickleballgensan"
-    },
-    "scheduleNote": "Accessible mall courts featuring smooth surfaces and paddle rentals.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/smpickleballgensan",
-      "label": "Message on Messenger"
+      "type": "walk-in",
+      "url": "https://www.facebook.com/RobGenSan",
+      "label": "WALK-INS ONLY"
     }
   },
   {
