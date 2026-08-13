@@ -313,9 +313,9 @@
     "id": "pw-lagao-1",
     "name": "Pickle World Gensan - Lagao",
     "address": "114L Arradaza Street, Purok 12, Brgy. Lagao, General Santos City",
-    "latitude": 6.1147,
-    "longitude": 125.1699,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1147,125.1699",
+    "latitude": 6.1187487,
+    "longitude": 125.2050469,
+    "googleMapsUrl": "https://maps.app.goo.gl/AXfcH2azNEm3TypP8",
     "openingTime": "08:00",
     "closingTime": "01:00",
     "hasOpenPlay": true,
@@ -325,46 +325,46 @@
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "https://pickleboard.co/_next/image?url=https%3A%2F%2Fcdn.pickleboard.co%2Fimages%2Fcourts%2Fpickle-world-gensan-lagao-general-santos-city-dadiangas-pickleboard.jpg&w=3840&q=75?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 954 388 4958",
       "email": "pickleworld.gsc@gmail.com",
-      "facebook": "https://facebook.com/pickleworldgensan"
+      "facebook": "https://www.facebook.com/pickleworldgensan"
     },
     "scheduleNote": "Open daily 8:00 AM – 1:00 AM. Indoor synthetic flooring with paddle rentals and organized open play. Rate ₱300–₱350/hr.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/pickleworldgensan",
-      "label": "Message on Messenger"
+      "type": "court-access",
+      "url": "https://app.court-access.com/browse/facility/7d257560-8f82-4475-a0cf-a2e2f04ed3b4",
+      "label": "Book on Court Access"
     }
   },
   {
     "id": "altori-park",
     "name": "Altori Park Pickleball",
     "address": "Matatag Park Square, Nuñez Ext. Street, General Santos City",
-    "latitude": 6.1178,
-    "longitude": 125.168,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1178,125.168",
+    "latitude": 6.13872,
+    "longitude": 125.1560376,
+    "googleMapsUrl": "https://maps.app.goo.gl/cPuyR1EhTq5tsgSd8",
     "openingTime": "06:00",
     "closingTime": "2:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1587280501635-68a0e82cd5ff?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1642630960214-19a1c8d1d3a7?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 929 340 6022",
       "email": "altoriparkwayhotel@gmail.com",
       "facebook": "https://facebook.com/altoripark"
     },
-    "scheduleNote": "Open daily. Official JOOLA facility featuring 9 courts (4 indoor & 5 outdoor), on-site café, equipment rental, and coaching. Rate ₱250–₱300/hr.",
+    "scheduleNote": "Open daily (6:00 AM – 2:00 AM). Official JOOLA facility featuring 9 courts (4 indoor & 5 outdoor), on-site café, equipment rental, and coaching. Rate ₱250–₱300/hr.",
     "booking": {
       "type": "sport360",
       "url": "https://app.sports360.ph/sportshub/altori-park-pickleball",
@@ -375,9 +375,9 @@
     "id": "pw-downtown",
     "name": "Pickle World Gensan - Downtown",
     "address": "NCCC Compound, National Highway, General Santos City",
-    "latitude": 6.1205,
-    "longitude": 125.174,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1205,125.174",
+    "latitude": 6.1205394,
+    "longitude": 125.1739687,
+    "googleMapsUrl": "https://maps.app.goo.gl/VcxoRqpiTVSj1h5VA",
     "openingTime": "06:00",
     "closingTime": "02:00",
     "hasOpenPlay": true,
@@ -387,8 +387,8 @@
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-FekUC7AL_sfwa27QtMhNzHT4V9syQam6fmVhToZ_OA&s?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 956 283 1362",
@@ -397,38 +397,39 @@
     },
     "scheduleNote": "Open daily 6:00 AM – 2:00 AM. Largest pickleball facility in GenSan with 13 indoor courts featuring silica sand finish and shower facilities. Rate ₱310–₱360/hr.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/pickleworldgensan",
-      "label": "Message on Messenger"
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/pickle-world-gensan-downtown?tab=home",
+      "label": "Book on PickleHub"
     }
   },
   {
     "id": "fora-gensan",
     "name": "Frasssati Outdoor Recreation Area (FORA)",
     "address": "Prk. San Miguel, Brgy. Calumpang, General Santos City",
-    "latitude": 6.1082,
-    "longitude": 125.1583,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1082,125.1583",
+    "latitude": 6.13677019,
+    "longitude": 125.1543746,
+    "googleMapsUrl": "https://maps.app.goo.gl/2kbQi4dcxfxdAsfX6",
     "openingTime": "06:00",
-    "closingTime": "22:00",
+    "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop",
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 917 123 4567",
       "email": "fora.gensan@gmail.com",
-      "facebook": "https://facebook.com/foragensan"
+      "facebook": "https://www.facebook.com/Foragsc"
     },
-    "scheduleNote": "Open daily 6:00 AM – 10:00 PM. Spacious outdoor multi-sport facility offering outdoor pickleball courts.",
+    "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering outdoor pickleball courts. Rate ₱100–₱150/hr.",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/foragensan",
+      "url": "https://www.facebook.com/Foragsc",
       "label": "Message on Messenger"
     }
   },
