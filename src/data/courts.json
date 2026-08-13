@@ -615,10 +615,10 @@
     "latitude": 6.1926197,
     "longitude": 125.1604384,
     "googleMapsUrl": "https://maps.app.goo.gl/FCgyGVzSB4tPWtyu6",
-    "openingTime": "04:00",
+    "openingTime": "14:00",
     "closingTime": "02:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": false,
+    "hasOpenPlay": false,
+    "hasCourtBooking": true,
     "pricePerHour": 250,
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
@@ -640,12 +640,12 @@
   {
     "id": "the-compound-courts",
     "name": "The Compound Courts",
-    "address": "Mabuhay Road, General Santos City",
-    "latitude": 6.1315,
-    "longitude": 125.189,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1315,125.189",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
+    "address": "5568+6WR, General Santos City Circumferential Rd, Barangay San Isidro",
+    "latitude": 6.1605794,
+    "longitude": 125.1671463,
+    "googleMapsUrl": "https://maps.app.goo.gl/8N5pXLo6scapXw3w8",
+    "openingTime": "14:00",
+    "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
@@ -655,15 +655,15 @@
       "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 928 666 7788",
-      "email": "compoundcourts@gmail.com",
-      "facebook": "https://facebook.com/thecompoundcourts"
+      "phone": "+63 969 515 9582",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61575346783464"
     },
     "scheduleNote": "Modern sports compound featuring multiple covered pickleball courts.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/thecompoundcourts",
-      "label": "Message on Messenger"
+      "type": "sport360",
+      "url": "https://app.sports360.ph/sportshub/the-compound-courts?fbclid=IwY2xjawTqZpVwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMVJDUWVQYU1vcHFaclo5c0dzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeCW7ck4byxjnI397qqYSoWse8HfgxGPR-h7sSqG6p9mHkTeVzsGn6dRlQAT8_aem_ekcFUlUHm-LzESGsx2GqKg",
+      "label": "Book on Sport360"
     }
   },
   {
