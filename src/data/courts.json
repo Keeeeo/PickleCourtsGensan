@@ -553,58 +553,58 @@
   {
     "id": "jco-pickleball-hub",
     "name": "JCO Pickleball Hub",
-    "address": "Apopong, General Santos City",
-    "latitude": 6.129,
-    "longitude": 125.148,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.129,125.148",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
+    "address": "JCO Pickleball Hub Lagao, (Davao Road) General Santos City. Beside VSM Estate Subdivision and in front of Amtrak.",
+    "latitude": 6.1427027,
+    "longitude": 125.2078196,
+    "googleMapsUrl": "https://maps.app.goo.gl/DFixqnZKMaEEFcfo6",
+    "openingTime": "00:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 922 444 5566",
-      "email": "jcopickleball@gmail.com",
-      "facebook": "https://facebook.com/jcopickleballhub"
+      "phone": "+63 956 263 3197",
+      "email": "jcopickleballhub@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61591039920365"
     },
-    "scheduleNote": "Dedicated pickleball hub catering to beginner and advanced players.",
+    "scheduleNote": "Dedicated pickleball hub catering to beginner and advanced players. Rates: ₱350/hr",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/jcopickleballhub",
-      "label": "Message on Messenger"
+      "type": "sport360",
+      "url": "https://app.sports360.ph/sportshub/jcopickleballhub?fbclid=IwY2xjawTqYcVwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMVJDUWVQYU1vcHFaclo5c0dzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEetqE7W8_DJbNLsPEHcGW586RPXyiqMFzFIquqQuXbdCqVUnVy34uNVAnAj7Y_aem_HpzZMJZs3s2fKdeO3-eK2A",
+      "label": "Book on Sport360"
     }
   },
   {
     "id": "frndzone-playhub",
     "name": "FRNDZONE Playhub",
-    "address": "City Heights, General Santos City",
-    "latitude": 6.1235,
-    "longitude": 125.1675,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.1235,125.1675",
-    "openingTime": "08:00",
-    "closingTime": "23:00",
+    "address": "Ricvill, San Jose, Near Airport,",
+    "latitude": 6.0799699,
+    "longitude": 125.0855894,
+    "googleMapsUrl": "https://maps.app.goo.gl/133whi3br3dRnUZk9",
+    "openingTime": "05:00",
+    "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 120,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 919 555 6677",
-      "email": "frndzone.playhub@gmail.com",
-      "facebook": "https://facebook.com/frndzoneplayhub"
+      "phone": "+63 946 509 2385",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61550470967979"
     },
-    "scheduleNote": "Multi-activity recreation hub featuring standard pickleball courts and refreshments.",
+    "scheduleNote": "Multi-activity recreation hub featuring standard pickleball courts and refreshments. Rates: ₱120/hr (AM) & ₱170/hr (PM)",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/frndzoneplayhub",
+      "url": "https://www.facebook.com/profile.php?id=61550470967979",
       "label": "Message on Messenger"
     }
   },
@@ -612,29 +612,29 @@
     "id": "965-pickleball-court",
     "name": "965 Pickleball Court",
     "address": "General Santos City",
-    "latitude": 6.115,
-    "longitude": 125.178,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.115,125.178",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
+    "latitude": 6.1926197,
+    "longitude": 125.1604384,
+    "googleMapsUrl": "https://maps.app.goo.gl/FCgyGVzSB4tPWtyu6",
+    "openingTime": "04:00",
+    "closingTime": "02:00",
     "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "hasCourtBooking": false,
+    "pricePerHour": 250,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 965 0000",
-      "email": "965pickleball@gmail.com",
-      "facebook": "https://facebook.com/965pickleball"
+      "phone": "+63 967 236 6834",
+      "email": "965pickle@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61589508478306"
     },
-    "scheduleNote": "Well-lit court facility available for morning and evening rentals.",
+    "scheduleNote": "Well-lit court facility available for morning and evening rentals. Rates: ₱250/hr.)",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/965pickleball",
-      "label": "Message on Messenger"
+      "type": "custom",
+      "url": "https://kobwebcourts.cleverkobweb.com/facilities/6/book",
+      "label": "Book on KOBWEB"
     }
   },
   {
