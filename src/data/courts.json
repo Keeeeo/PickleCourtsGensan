@@ -1092,10 +1092,10 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250~300",
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 975 446 5194",
