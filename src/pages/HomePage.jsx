@@ -1,7 +1,7 @@
 import { Search, MapPin, SlidersHorizontal } from 'lucide-react'
 import CardGrid from '../components/CardGrid'
 
-export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, onRequestLocation, onOpenFilters, searchOpen }) {
+export default function HomePage({ courts, distances, locationStatus, query, onQueryChange, onRequestLocation, onOpenFilters }) {
   return (
     <main className="pb-16 bg-slate-50">
       <section className="relative overflow-hidden bg-white px-4 py-8 shadow-sm md:px-8 md:py-10">
