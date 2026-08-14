@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { MapPin, Navigation, Users, CalendarCheck, CircleDot } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
+import { formatPriceRange } from '../utils/price'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
   const [hasImageError, setHasImageError] = useState(false)
@@ -67,7 +68,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
           )}
           <span className="h-1 w-1 rounded-full bg-slate-300" />
           <span className="font-semibold text-slate-900">
-            ₱{court.pricePerHour}/hr
+            {formatPriceRange(court.pricePerHour)}
           </span>
         </div>
 
