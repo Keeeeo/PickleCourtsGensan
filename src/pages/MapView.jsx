@@ -1,7 +1,7 @@
-import { useMemo } from 'react'
-import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet'
+import { useEffect, useMemo, useState } from 'react'
+import { MapContainer, TileLayer, Marker, Popup, Tooltip, useMap } from 'react-leaflet'
 import L from 'leaflet'
-import { Crosshair, Users, CalendarCheck, MapPin, Navigation } from 'lucide-react'
+import { Crosshair, Users, CalendarCheck, MapPin, Navigation, Plus, Minus, Search, X } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
 
@@ -50,8 +50,112 @@ function RecenterButton({ position }) {
   )
 }
 
+/** Vertically stacked +/- zoom buttons, styled to sit directly on top of the info card. */
+function ZoomStack() {
+  const map = useMap()
+  return (
+    <div className="flex flex-col w-11 rounded-xl overflow-hidden shadow-card bg-white border border-slate-200">
+      <button
+        type="button"
+        onClick={() => map.zoomIn()}
+        className="h-10 flex items-center justify-center text-slate-700 hover:bg-slate-50 border-b border-slate-200 active:bg-slate-100"
+        aria-label="Zoom in"
+      >
+        <Plus className="w-4 h-4" />
+      </button>
+      <button
+        type="button"
+        onClick={() => map.zoomOut()}
+        className="h-10 flex items-center justify-center text-slate-700 hover:bg-slate-50 active:bg-slate-100"
+        aria-label="Zoom out"
+      >
+        <Minus className="w-4 h-4" />
+      </button>
+    </div>
+  )
+}
+
+/**
+ * Bottom-left cluster: zoom controls stacked on top of the court-count card,
+ * with the "Share location" button placed beside the card.
+ */
+function BottomLeftControls({ totalCourts, locationStatus, onRequestLocation }) {
+  return (
+    <div className="absolute bottom-6 left-4 z-[1000] flex flex-col items-start gap-2">
+      <ZoomStack />
+      <div className="flex items-center gap-3">
+        <div className="bg-white shadow-card rounded-xl px-4 py-2.5">
+          <p className="font-display font-700 text-sm text-slate">GenSan Court Map</p>
+          <p className="text-xs text-slate-500">{totalCourts} courts pinned</p>
+        </div>
+        {locationStatus !== 'granted' && (
+          <button
+            onClick={onRequestLocation}
+            className="bg-court text-white text-xs font-semibold px-3 py-2.5 rounded-xl shadow-card hover:bg-court/90 whitespace-nowrap"
+          >
+            Share location
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
+/** Flies/fits the map to the current search matches. Lives inside MapContainer so it can call useMap(). */
+function SearchFlyTo({ query, matches }) {
+  const map = useMap()
+
+  useEffect(() => {
+    if (!query.trim() || matches.length === 0) return
+
+    const timeout = setTimeout(() => {
+      if (matches.length === 1) {
+        map.flyTo([matches[0].latitude, matches[0].longitude], 15, { duration: 0.75 })
+      } else {
+        const bounds = L.latLngBounds(matches.map((c) => [c.latitude, c.longitude]))
+        map.fitBounds(bounds, { padding: [64, 64], maxZoom: 15 })
+      }
+    }, 300)
+
+    return () => clearTimeout(timeout)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [query, matches.length])
+
+  return null
+}
+
+/** Compact search bar pinned to the top-right of the map. */
+function TopRightSearch({ value, onChange }) {
+  return (
+    <div className="absolute top-4 right-4 z-[1000] w-[min(15rem,calc(100vw-2rem))]">
+      <div className="flex items-center gap-2 bg-white shadow-card rounded-xl px-3 py-2.5">
+        <Search className="w-4 h-4 text-slate-400 shrink-0" />
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          placeholder="Search courts..."
+          aria-label="Search courts by name or address"
+          className="w-full bg-transparent text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none"
+        />
+        {value && (
+          <button
+            type="button"
+            onClick={() => onChange('')}
+            className="shrink-0 text-slate-400 hover:text-slate-600"
+            aria-label="Clear search"
+          >
+            <X className="w-4 h-4" />
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
 export default function MapView({ courts, distances, position, locationStatus, onRequestLocation }) {
   const center = position ? [position.latitude, position.longitude] : GENSAN_CENTER
+  const [searchQuery, setSearchQuery] = useState('')
 
   const icons = useMemo(() => {
     const cache = {}
@@ -61,30 +165,23 @@ export default function MapView({ courts, distances, position, locationStatus, o
     }
   }, [])
 
+  const filteredCourts = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase()
+    if (!q) return courts
+    return courts.filter(
+      (c) => c.name.toLowerCase().includes(q) || c.address?.toLowerCase().includes(q),
+    )
+  }, [courts, searchQuery])
+
   return (
     <main className="h-[calc(100vh-4rem)] md:h-screen relative">
-      <div className="absolute top-4 left-4 right-4 md:left-6 md:right-auto z-[1000] flex items-center gap-3">
-        <div className="bg-white shadow-card rounded-xl px-4 py-2.5">
-          <p className="font-display font-700 text-sm text-slate">GenSan Court Map</p>
-          <p className="text-xs text-slate-500">{courts.length} courts pinned</p>
-        </div>
-        {locationStatus !== 'granted' && (
-          <button
-            onClick={onRequestLocation}
-            className="bg-court text-white text-xs font-semibold px-3 py-2.5 rounded-xl shadow-card hover:bg-court/90"
-          >
-            Share location
-          </button>
-        )}
-      </div>
-
-      <MapContainer center={center} zoom={13} scrollWheelZoom className="w-full h-full">
+      <MapContainer center={center} zoom={13} scrollWheelZoom zoomControl={false} className="w-full h-full">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        {courts.map((court) => {
+        {filteredCourts.map((court) => {
           const bookingUrl = court.booking?.url
           const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
           const externalRel = externalTarget ? 'noreferrer' : undefined
@@ -96,6 +193,10 @@ export default function MapView({ courts, distances, position, locationStatus, o
               position={[court.latitude, court.longitude]}
               icon={icons(isCourtOpen(court.openingTime, court.closingTime))}
             >
+              <Tooltip permanent direction="top" offset={[0, -30]} className="court-label" opacity={1}>
+                {court.name}
+              </Tooltip>
+
               <Popup>
                 <div className="flex flex-col gap-4 p-5">
                   <div className="space-y-3">
@@ -207,8 +308,16 @@ export default function MapView({ courts, distances, position, locationStatus, o
 
         {position && <Marker position={[position.latitude, position.longitude]} icon={userIcon} />}
 
+        <BottomLeftControls
+          totalCourts={filteredCourts.length}
+          locationStatus={locationStatus}
+          onRequestLocation={onRequestLocation}
+        />
         <RecenterButton position={position} />
+        <SearchFlyTo query={searchQuery} matches={filteredCourts} />
       </MapContainer>
+
+      <TopRightSearch value={searchQuery} onChange={setSearchQuery} />
     </main>
   )
 }
