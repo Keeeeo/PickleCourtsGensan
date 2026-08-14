@@ -35,8 +35,9 @@ export default function HomePage({ courts, distances, locationStatus, query, onQ
       </section>
 
       {/* Search & filter bar: pinned to the top of the viewport (below the mobile
-          header on small screens) so it stays reachable while the court list scrolls. */}
-      <div className="sticky top-16 md:top-0 z-20 border-b border-slate-100 bg-white/95 px-4 py-4 shadow-sm backdrop-blur md:px-8">
+          header on small screens) with a frosted-glass look so it stays reachable
+          and unobtrusive while the court list scrolls underneath it. */}
+      <div className="sticky top-16 md:top-0 z-20 border-b border-white/40 bg-white/70 px-4 py-4 shadow-md backdrop-blur-md supports-[backdrop-filter]:bg-white/60 md:px-8">
         <div className="mx-auto grid max-w-6xl gap-4 sm:grid-cols-[1fr_auto] items-center">
           <div className="relative w-full min-w-0">
             <Search className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
