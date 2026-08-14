@@ -12,7 +12,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": false,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -43,7 +43,7 @@
     "closingTime": "2:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250~300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -76,7 +76,7 @@
     "closingTime": "07:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -107,7 +107,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300~325",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8zxG8gBuTbmqjNJwtoL4iFXgyT-SaEMVdGQMZjAy3NWKRlCjTr6mcKs8&s=10?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8zxG8gBuTbmqjNJwtoL4iFXgyT-SaEMVdGQMZjAy3NWKRlCjTr6mcKs8&s=10?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -140,7 +140,7 @@
     "closingTime": "23:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 100,
+    "pricePerHour": "100~200",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -171,7 +171,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 315,
+    "pricePerHour": "315~365",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -202,7 +202,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "260~310",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -235,7 +235,7 @@
     "closingTime": "23:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "215~310",
     "imageUrl": "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/7e89006a-ce67-409c-b0a0-70cd6033a54e/gallery/1776676786715-0fkp1.jpg?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/7e89006a-ce67-409c-b0a0-70cd6033a54e/gallery/1776676786715-0fkp1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -268,7 +268,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "200~250",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq6Z83tPaQDtKLY7JxjhRyjiawEeNXeK0CUgb-6BQ9pv6uYiI7NvXvbHZS&s=10?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -301,7 +301,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300~350",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -334,7 +334,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 150,
+    "pricePerHour": "100~150",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -367,7 +367,7 @@
     "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 120,
+    "pricePerHour": "120~170",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -398,7 +398,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "100~200",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -429,7 +429,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -460,7 +460,7 @@
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -491,7 +491,7 @@
     "closingTime": "23:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -523,7 +523,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "350",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -554,7 +554,7 @@
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -585,7 +585,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 280,
+    "pricePerHour": "280~300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -616,7 +616,7 @@
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 180,
+    "pricePerHour": "180",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -647,7 +647,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 150,
+    "pricePerHour": "150~250",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTN_NKqGyAIZ_Bd3_LAJuyeVlte2AVbcIyjewbwuDEoGK4Zj52jYLOiw&s=10?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTN_NKqGyAIZ_Bd3_LAJuyeVlte2AVbcIyjewbwuDEoGK4Zj52jYLOiw&s=10?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -680,7 +680,7 @@
     "closingTime": "03:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 295,
+    "pricePerHour": "295",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -711,7 +711,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "215~265",
     "imageUrl": " ?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -742,7 +742,7 @@
     "closingTime": "08:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 265,
+    "pricePerHour": "265",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -773,7 +773,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 310,
+    "pricePerHour": "310~360",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -806,7 +806,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300~350",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3jjejwgF4hppkQEFy8iYn0dO2Q2R_zqySoKq_f5gpxnJ2PP3Zx9GYm0&s=10q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -839,7 +839,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": false,
-    "pricePerHour": 300,
+    "pricePerHour": "300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -870,7 +870,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 315,
+    "pricePerHour": "315~365",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -901,7 +901,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250~350",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -934,7 +934,7 @@
     "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "150~350",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -965,7 +965,7 @@
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": false,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -996,7 +996,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": false,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "215~315",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1027,7 +1027,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "200",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1058,7 +1058,7 @@
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250~350",
     "imageUrl": "https://www.side-outpickleball.com/sideout/IMG_5012.webp?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://www.side-outpickleball.com/sideout/IMG_5012.webp?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1091,7 +1091,7 @@
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250~300",
     "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1122,7 +1122,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1153,7 +1153,7 @@
     "closingTime": "21:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "200",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1184,7 +1184,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300~350",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1215,7 +1215,7 @@
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 250,
+    "pricePerHour": "250~300",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1246,7 +1246,7 @@
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
+    "pricePerHour": "215~315",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1277,7 +1277,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300~350",
     "imageUrl": "https://assets.reclub.co/user-avatars/1146607.webp?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://assets.reclub.co/user-avatars/1146607.webp?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1310,7 +1310,7 @@
     "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 300,
+    "pricePerHour": "300",
     "imageUrl": "https://scontent.fdvo1-1.fna.fbcdn.net/v/t39.30808-6/669668647_122096658188735188_6358110061888449670_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1024&ctp=s1536x1024&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeHS16NqsqTwfqCz05MN98v68x9OX0ULEyDzH05fRQsTIBW0xk8H5RmW93F1Fd5xPYWz94Y6raiMxVmSP7oBPR20&_nc_ohc=3PqRcVRKnIEQ7kNvwHGWV1U&_nc_oc=AdqU23PJw4FYSMBuSlS6mVqMgQPZdbWwTGr2jrcpEmRhybjJaolOqL2STqly9fnL6DTmcdMe0zuqGeYVuT8EaeM0&_nc_zt=23&_nc_ht=scontent.fdvo1-1.fna&_nc_gid=z2xDZUW2Z-CTeyrOF34KdA&_nc_ss=7b2a8&oh=00_AQE2cZ56JkbIbSTVvrxP_-zcugtg71IXLFWjDRh_r-bvGQ&oe=6A828054&q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://scontent.fceb1-3.fna.fbcdn.net/v/t39.30808-6/669668647_122096658188735188_6358110061888449670_n.jpg?stp=dst-jpg_tt6&cstp=mx1536x1024&ctp=s1536x1024&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=3PqRcVRKnIEQ7kNvwEAfSFt&_nc_oc=Adrwu3SYyxPQ5FTrmtrYqKbfKbWA8AIJQtiC0F3R9Cw6SUs8NGnQ1hDqW2IlW91NGbU5GFfSXYpRFs5Rs7KCSR2l&_nc_zt=23&_nc_ht=scontent.fceb1-3.fna&_nc_gid=yu7K0UU2Wp5LQ_qlJ8LqKQ&_nc_ss=7b2a8&oh=00_AQEnRUJLmKFi0QvOkmaQ80VkGaBrlmuEvkyMLDVwqQNwIg&oe=6A80F694&q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1343,7 +1343,7 @@
     "closingTime": "22:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 265,
+    "pricePerHour": "265",
     "imageUrl": "?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
