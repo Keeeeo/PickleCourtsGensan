@@ -4,6 +4,7 @@ import L from 'leaflet'
 import { Crosshair, Users, CalendarCheck, MapPin, Navigation, Plus, Minus, Search, X } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
+import { formatPriceRange } from '../utils/price'
 
 const GENSAN_CENTER = [6.1167, 125.1716]
 
@@ -220,7 +221,7 @@ export default function MapView({ courts, distances, position, locationStatus, o
                       </span>
                     )}
                     <span className="h-1 w-1 rounded-full bg-slate-300" />
-                    <span className="font-semibold text-slate-900">₱{court.pricePerHour}/hr</span>
+                    <span className="font-semibold text-slate-900">{formatPriceRange(court.pricePerHour)}</span>
                   </div>
 
                   <div className="flex flex-col gap-3">
