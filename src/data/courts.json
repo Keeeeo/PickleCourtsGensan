@@ -1218,5 +1218,63 @@
       "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fapp.sports360.ph%2Fsportshub%2Fccm-picklers-sports-center%3Ffbclid%3DIwcGRvZgVleHRuA2FlbQIxMABicmlkETFkUUdVa3loa2hTaW1NTzRvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtXIkn4mHGWYiqcHMuWgxu4z4A_TtPowZhhKhEhGh6GklHnBAO4pJJrUNEwH_aem_0bFelsNRnKv6UU34kuxGCA&h=AUA0b_dTKzL6lFfDHr-KIbrQci-aU-bPf3ns7r8wde2rGXA2y4B0u8AOdcPTkmfoLrK-jyHJt9nPckj8dafpNoy0Zfq46CQHfZcLB4FdJ1bFJmG4ROfOXbPbXzDr20_6vwq-3V6_c3uZrBUZmtTm",
       "label": "Book on Sport360"
     }
+  },
+  {
+    "id": "game-yard",
+    "name": "Game Yard",
+    "address": "Game Yard, Purok Amadeo, Barangay San Isidro, General Santos City",
+    "latitude": 6.13665773,
+    "longitude": 125.1841415,
+    "googleMapsUrl": "https://maps.app.goo.gl/tFvJpUeVwXwjkLaXA",
+    "openingTime": "06:00",
+    "closingTime": "02:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 200,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 970 895 0138",
+      "email": "gameyard.gsc@gmail.com",
+      "facebook": "https://www.facebook.com/gameyardgensan"
+    },
+    "scheduleNote": "Community pickleball spot featuring casual round-robin matches. Rates: ₱100/hr (6AM-5PM) & ₱200/hr (5PM-11PM).",
+    "booking": {
+      "type": "kobweb",
+      "url": "https://kobwebcourts.cleverkobweb.com/facilities/1/book",
+      "label": "Book on Kobweb"
+    }
+  }, 
+  {
+    "id": "central-picklehub",
+    "name": "Central PickleHub",
+    "address": "Manansala Street, Dadiangas North, General Santos ",
+    "latitude": 6.1177578,
+    "longitude": 125.167649,
+    "googleMapsUrl": "https://maps.app.goo.gl/YesBChcUndWDdpU19",
+    "openingTime": "08:00",
+    "closingTime": "01:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": 315,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 968 720 0124",
+      "email": "orillajoysanjean@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61591338850625"
+    },
+    "scheduleNote": "Community pickleball spot featuring casual round-robin matches. Rates: ₱315/hr (8AM-5PM) & ₱365/hr (5PM-1AM).",
+    "booking": {
+      "type": "Courtly",
+      "url": "https://www.courtly.cc/book/central-picklehub",
+      "label": "Book on Courtly"
+    }
   }
 ]
