@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { Menu } from 'lucide-react'
 
 export default function MobileHeader({ onOpenDrawer }) {
@@ -12,10 +13,14 @@ export default function MobileHeader({ onOpenDrawer }) {
           <Menu className="w-6 h-6" />
         </button>
 
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-          <div className="w-16 h-16 overflow-hidden bg-transparent flex items-center justify-center">
+        <div className="absolute inset-0 flex items-center justify-center">
+          <Link
+            to="/"
+            aria-label="Go to home"
+            className="w-16 h-16 overflow-hidden bg-transparent flex items-center justify-center cursor-pointer transition-opacity hover:opacity-80"
+          >
             <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="h-full w-full object-contain" />
-          </div>
+          </Link>
         </div>
       </div>
     </header>

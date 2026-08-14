@@ -175,7 +175,7 @@ export default function MapView({ courts, distances, position, locationStatus, o
   }, [courts, searchQuery])
 
   return (
-    <main className="h-[calc(100vh-4rem)] md:h-screen relative">
+    <main className="h-[calc(100vh-4rem)] md:h-screen relative isolate">
       <MapContainer center={center} zoom={13} scrollWheelZoom zoomControl={false} className="w-full h-full">
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

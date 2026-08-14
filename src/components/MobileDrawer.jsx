@@ -10,7 +10,7 @@ export default function MobileDrawer({ open, onClose }) {
   if (!open) return null
 
   return (
-    <div className="md:hidden fixed inset-0 z-40">
+    <div className="md:hidden fixed inset-0 z-[60]">
       <div className="absolute inset-0 bg-slate-950/60" onClick={onClose} />
       <div className="absolute inset-y-0 left-0 w-72 bg-slate court-lines animate-drawer-in flex flex-col">
         <div className="flex items-center justify-between h-16 px-4 border-b border-white/10">
