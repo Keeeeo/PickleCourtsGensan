@@ -1076,58 +1076,29 @@
   {
     "id": "gensan-rackets-pickleball-club",
     "name": "Gensan Rackets Pickleball Club",
-    "address": "General Santos City",
-    "latitude": 6.121,
-    "longitude": 125.177,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.121,125.177",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
+    "address": "Near EmJake Aquawave, 45VV+J82, Nursery Road, General Santos City",
+    "latitude": 6.144015,
+    "longitude": 125.1929452,
+    "googleMapsUrl": "https://maps.app.goo.gl/n2rLaDc14oLnfzgn9",
+    "openingTime": "12:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 300,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1687092890875-3f7b2d4b3a6f?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 920 777 8899",
-      "email": "gensanrackets@gmail.com",
-      "facebook": "https://facebook.com/gensanrackets"
+      "phone": "+63 952 462 4180",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61588915915650"
     },
     "scheduleNote": "Active racquet club offering pickleball coaching and weekly tournaments.",
     "booking": {
       "type": "messenger",
-      "url": "https://m.me/gensanrackets",
-      "label": "Message on Messenger"
-    }
-  },
-  {
-    "id": "city-smash-pickleball",
-    "name": "City Smash Pickleball",
-    "address": "City Heights, General Santos City",
-    "latitude": 6.123,
-    "longitude": 125.166,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.123,125.166",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 220,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 917 222 3311",
-      "email": "citysmash@gmail.com",
-      "facebook": "https://facebook.com/citysmashpickleball"
-    },
-    "scheduleNote": "High-energy court location providing competitive matches and training.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/citysmashpickleball",
+      "url": "https://www.facebook.com/profile.php?id=61588915915650",
       "label": "Message on Messenger"
     }
   },
