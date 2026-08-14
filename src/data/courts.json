@@ -1120,8 +1120,8 @@
       "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 930 444 5566",
-      "email": "picklepanicpark@gmail.com",
+      "phone": "",
+      "email": "",
       "facebook": "https://www.facebook.com/profile.php?id=61589654676362"
     },
     "scheduleNote": "Family-friendly recreational park featuring multiple pickleball courts.",
@@ -1131,62 +1131,34 @@
       "label": "Book on PickleHub"
     }
   },
-  {
-    "id": "dok-mahauron-garden",
-    "name": "Dok Mahauron Garden",
-    "address": "General Santos City",
-    "latitude": 6.141,
-    "longitude": 125.168,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.141,125.168",
-    "openingTime": "07:00",
-    "closingTime": "21:00",
-    "hasOpenPlay": true,
-    "hasCourtBooking": true,
-    "pricePerHour": 180,
-    "imageUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=1600&auto=format&fit=crop",
-    "gallery": [
-      "https://images.unsplash.com/photo-1599474924187-334a4ae5bd3c?q=80&w=800&auto=format&fit=crop"
-    ],
-    "contact": {
-      "phone": "+63 922 999 8877",
-      "email": "dokmahauron@gmail.com",
-      "facebook": "https://facebook.com/dokmahaurongarden"
-    },
-    "scheduleNote": "Scenic garden location hosting outdoor pickleball games.",
-    "booking": {
-      "type": "messenger",
-      "url": "https://m.me/dokmahaurongarden",
-      "label": "Message on Messenger"
-    }
-  },
+
   {
     "id": "pickle-bull-by-kwiky-mart",
     "name": "Pickle Bull by Kwiky Mart",
-    "address": "General Santos City",
-    "latitude": 6.119,
-    "longitude": 125.18,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.119,125.18",
-    "openingTime": "06:00",
-    "closingTime": "23:00",
+    "address": "National Highway, General Santos City",
+    "latitude": 6.1190603,
+    "longitude": 125.1650597,
+    "googleMapsUrl": "https://maps.app.goo.gl/FqiNVupp2dde3K119",
+    "openingTime": "00:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": " ?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 444 2211",
-      "email": "picklebull@gmail.com",
-      "facebook": "https://facebook.com/picklebullkwiky"
+      "phone": "+63 915 397 9174",
+      "email": "kwikymart24@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61591074601926"
     },
-    "scheduleNote": "Convenience store paired court location for easy refreshment access.",
+    "scheduleNote": "Convenience store paired court location for easy refreshment access. Rates: ₱215/hr (6AM-5PM) & ₱265/hr (5PM-5AM).",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/picklebullkwiky",
-      "label": "Message on Messenger"
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/kwiky-mart-pickle-bull?tab=home",
+      "label": "Book on PickleHub"
     }
   },
   {
