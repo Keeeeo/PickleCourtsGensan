@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
+import LocationMiniMap from '../components/LocationMiniMap'
 
 export default function CourtDetailPage({ courts, distances, locationStatus }) {
   const { id } = useParams()
@@ -188,6 +189,29 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
               )}
             </ul>
 
+            {/* Location snippet map */}
+            <div className="mt-4 pt-4 border-t border-slate-100">
+              <div className="flex items-center justify-between mb-2.5">
+                <h3 className="font-sans font-semibold text-sm text-slate-900">Location</h3>
+                {court.googleMapsUrl && (
+                  <a
+                    href={court.googleMapsUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1 text-xs font-semibold text-court hover:text-court/80"
+                  >
+                    <Navigation className="w-3.5 h-3.5" />
+                    Get Directions
+                  </a>
+                )}
+              </div>
+              <LocationMiniMap
+                latitude={court.latitude}
+                longitude={court.longitude}
+                name={court.name}
+              />
+            </div>
+
             <div className="mt-4 pt-4 border-t border-slate-100 flex items-center justify-between text-sm">
               <span className="flex items-center gap-1.5 text-slate-500">
                 <Wallet className="w-4 h-4" />
@@ -215,18 +239,6 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
               className="flex items-center justify-center gap-2 w-full bg-pickle hover:bg-pickle-dark text-white font-semibold text-sm py-3.5 rounded-xl shadow-card transition-colors"
             >
               {court.booking.label || 'Book now'}
-            </a>
-          )}
-
-          {court.googleMapsUrl && (
-            <a
-              href={court.googleMapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-center gap-2 w-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 font-semibold text-sm py-3.5 rounded-xl transition-colors"
-            >
-              <MapPin className="w-4 h-4" />
-              Get Directions
             </a>
           )}
 
