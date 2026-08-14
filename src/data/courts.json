@@ -1105,30 +1105,30 @@
   {
     "id": "pickle-panic-recreational-park",
     "name": "Pickle Panic Recreational Park",
-    "address": "General Santos City",
-    "latitude": 6.113,
-    "longitude": 125.176,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.113,125.176",
-    "openingTime": "07:00",
-    "closingTime": "22:00",
+    "address": "Lagare Farms&Parks, General Santos City",
+    "latitude": 6.1312789,
+    "longitude": 125.1488912,
+    "googleMapsUrl": "https://maps.app.goo.gl/T3Wn9TvPYwyN5JXP8",
+    "openingTime": "16:00",
+    "closingTime": "08:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 200,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 265,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 930 444 5566",
       "email": "picklepanicpark@gmail.com",
-      "facebook": "https://facebook.com/picklepanicpark"
+      "facebook": "https://www.facebook.com/profile.php?id=61589654676362"
     },
     "scheduleNote": "Family-friendly recreational park featuring multiple pickleball courts.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/picklepanicpark",
-      "label": "Message on Messenger"
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/pickle-panic-by-lagare-farms-parks?tab=home",
+      "label": "Book on PickleHub"
     }
   },
   {
