@@ -12,6 +12,7 @@ import {
 } from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
+import { formatPriceRange } from '../utils/price'
 import LocationMiniMap from '../components/LocationMiniMap'
 
 export default function CourtDetailPage({ courts, distances, locationStatus }) {
@@ -217,7 +218,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                 <Wallet className="w-4 h-4" />
                 Price
               </span>
-              <span className="font-mono font-semibold text-slate">₱{court.pricePerHour}/hr</span>
+              <span className="font-mono font-semibold text-slate">{formatPriceRange(court.pricePerHour)}</span>
             </div>
 
             {locationStatus === 'granted' && distances?.[court.id] != null && (
