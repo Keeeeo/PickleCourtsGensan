@@ -11,6 +11,7 @@ import courtsData from './data/courts.json'
 import { useGeolocation } from './hooks/useGeolocation'
 import { haversineDistanceKm } from './utils/haversine'
 import { isCourtOpen } from './utils/courtStatus'
+import { getMinPrice, getMaxPrice } from './utils/price'
 
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
@@ -58,9 +59,9 @@ export default function App() {
         case 'name-desc':
           return b.name.localeCompare(a.name)
         case 'price-asc':
-          return a.pricePerHour - b.pricePerHour
+          return (getMinPrice(a.pricePerHour) ?? Infinity) - (getMinPrice(b.pricePerHour) ?? Infinity)
         case 'price-desc':
-          return b.pricePerHour - a.pricePerHour
+          return (getMaxPrice(b.pricePerHour) ?? -Infinity) - (getMaxPrice(a.pricePerHour) ?? -Infinity)
         case 'distance-asc':
           return (distances[a.id] ?? Infinity) - (distances[b.id] ?? Infinity)
         case 'distance-desc':
