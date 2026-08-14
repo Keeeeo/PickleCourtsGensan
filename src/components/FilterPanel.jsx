@@ -1,4 +1,4 @@
-import { X, ArrowDownAZ, ArrowUpZA, Users, CalendarCheck, Navigation, Wallet, Clock } from 'lucide-react'
+import { X, ArrowDownAZ, ArrowUpZA, Users, CalendarCheck, Navigation, Wallet, Clock, Home, Sun } from 'lucide-react'
 
 export const SORT_OPTIONS = [
   { value: 'name-asc', label: 'Name A–Z', icon: ArrowDownAZ },
@@ -106,6 +106,26 @@ export default function FilterPanel({
                 />
                 <CalendarCheck className="w-4 h-4 text-slate-500" />
                 <span className="text-sm font-sans font-medium text-slate-900">Court Booking available</span>
+              </label>
+              <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={availability.indoor}
+                  onChange={() => toggleAvailability('indoor')}
+                  className="w-4 h-4 rounded accent-emerald-600"
+                />
+                <Home className="w-4 h-4 text-slate-500" />
+                <span className="text-sm font-sans font-medium text-slate-900">Indoor</span>
+              </label>
+              <label className="flex items-center gap-3 px-3 py-2.5 rounded-xl hover:bg-slate-50 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={availability.outdoor}
+                  onChange={() => toggleAvailability('outdoor')}
+                  className="w-4 h-4 rounded accent-emerald-600"
+                />
+                <Sun className="w-4 h-4 text-slate-500" />
+                <span className="text-sm font-sans font-medium text-slate-900">Outdoor</span>
               </label>
             </div>
           </section>
