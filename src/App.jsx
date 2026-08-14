@@ -16,7 +16,6 @@ import { getMinPrice, getMaxPrice } from './utils/price'
 export default function App() {
   const [drawerOpen, setDrawerOpen] = useState(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
-  const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sortBy, setSortBy] = useState('name-asc')
   const [availability, setAvailability] = useState({
@@ -77,11 +76,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900">
       <Sidebar onOpenFilters={() => setFiltersOpen(true)} />
-      <MobileHeader
-        onOpenDrawer={() => setDrawerOpen(true)}
-        onOpenFilters={() => setFiltersOpen(true)}
-        onOpenSearch={() => setSearchOpen((v) => !v)}
-      />
+      <MobileHeader onOpenDrawer={() => setDrawerOpen(true)} />
       <MobileDrawer open={drawerOpen} onClose={() => setDrawerOpen(false)} />
       <FilterPanel
         open={filtersOpen}
@@ -107,7 +102,6 @@ export default function App() {
                 onQueryChange={setQuery}
                 onRequestLocation={requestLocation}
                 onOpenFilters={() => setFiltersOpen(true)}
-                searchOpen={searchOpen}
               />
             }
           />
