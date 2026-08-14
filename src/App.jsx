@@ -18,7 +18,13 @@ export default function App() {
   const [searchOpen, setSearchOpen] = useState(false)
   const [query, setQuery] = useState('')
   const [sortBy, setSortBy] = useState('name-asc')
-  const [availability, setAvailability] = useState({ openPlay: false, courtBooking: false, openNow: false })
+  const [availability, setAvailability] = useState({
+    openPlay: false,
+    courtBooking: false,
+    openNow: false,
+    indoor: false,
+    outdoor: false,
+  })
 
   const { position, status: locationStatus, request: requestLocation } = useGeolocation({ auto: true })
 
@@ -42,6 +48,8 @@ export default function App() {
     if (availability.openPlay) list = list.filter((c) => c.hasOpenPlay)
     if (availability.courtBooking) list = list.filter((c) => c.hasCourtBooking)
     if (availability.openNow) list = list.filter((c) => isCourtOpen(c.openingTime, c.closingTime))
+    if (availability.indoor) list = list.filter((c) => c.isIndoor)
+    if (availability.outdoor) list = list.filter((c) => c.isOutdoor)
 
     const sorted = [...list].sort((a, b) => {
       switch (sortBy) {
