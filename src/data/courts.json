@@ -1047,30 +1047,30 @@
   {
     "id": "brigada-golf-range",
     "name": "Brigada Golf Range",
-    "address": "Brgy. NLSA Road, General Santos City",
-    "latitude": 6.142,
-    "longitude": 125.175,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.142,125.175",
-    "openingTime": "06:00",
-    "closingTime": "22:00",
+    "address": "Brigada Golf Range, Brigada Business Hub, National Highway, Brgy. Mabuhay.,, General Santos City",
+    "latitude": 6.1525418,
+    "longitude": 125.1482249,
+    "googleMapsUrl": "https://maps.app.goo.gl/E2Nj9RkN1hNCV1RF8s",
+    "openingTime": "15:00",
+    "closingTime": "07:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": 250,
-    "imageUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1626224583764-f87db24ac4ea?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 888 9911",
-      "email": "brigadagolf@gmail.com",
-      "facebook": "https://facebook.com/brigadagolfrange"
+      "phone": "+63 948 248 1965",
+      "email": "brigadahub.gensan@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61561693401007"
     },
     "scheduleNote": "Pickleball court conversion within the Brigada Golf Complex with ample parking.",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/brigadagolfrange",
-      "label": "Message on Messenger"
+      "type": "custom",
+      "url": "https://brigadahub.ph/?fbclid=IwY2xjawTr7mJwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWRRR1VreWhraFNpbU1PNG9zcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeg7XDhCX6EKbx4eAO246gSIuKmimhh2mWEFk5t_6flbkdzqiv9395Z7Gxrm0_aem_-FUJNs1mRIElocHlgko1jw#/book",
+      "label": "Book on Brigada"
     }
   },
   {
