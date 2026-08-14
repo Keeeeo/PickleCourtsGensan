@@ -1164,30 +1164,30 @@
   {
     "id": "the-palm-court",
     "name": "The Palm Court",
-    "address": "General Santos City",
-    "latitude": 6.127,
-    "longitude": 125.179,
-    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=6.127,125.179",
+    "address": "DEL CARMEN ST, Barangay Lagao, General Santos City",
+    "latitude": 6.1316771,
+    "longitude": 125.189585,
+    "googleMapsUrl": "https://maps.app.goo.gl/AE9aS1gLh2CkpiYk9",
     "openingTime": "06:00",
-    "closingTime": "22:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": 220,
-    "imageUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": 250,
+    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "https://images.unsplash.com/photo-1554068865-24cecd4e34b8?q=80&w=800&auto=format&fit=crop"
+      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 928 999 0011",
-      "email": "thepalmcourt@gmail.com",
-      "facebook": "https://facebook.com/thepalmcourtgensan"
+      "phone": "+63 995 199 3116",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61577436568153"
     },
-    "scheduleNote": "Palm-shaded outdoor court providing cool breezes during late afternoon games.",
+    "scheduleNote": "Palm-shaded outdoor court providing cool breezes during late afternoon games. Rates: ₱250/hr (6AM-4PM) & ₱300/hr (5PM-12MN).",
     "booking": {
-      "type": "messenger",
-      "url": "https://m.me/thepalmcourtgensan",
-      "label": "Message on Messenger"
+      "type": "custom",
+      "url": "https://thepalmcourt.ph/?fbclid=IwY2xjawTr-XVwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMWRRR1VreWhraFNpbU1PNG9zcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe2g2zn345WxpI0y76StTOKwt46yt5nwYlAG5ut4mrAbqf47UsWoyEj6BA33E_aem_Aw0miHFGWZmUkte68nq4Jg",
+      "label": "Book on Website"
     }
   },
   {
