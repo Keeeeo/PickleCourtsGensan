@@ -1130,18 +1130,19 @@
     "address": "5568+6WR, General Santos City Circumferential Rd, Barangay San Isidro",
     "latitude": 6.1605794,
     "longitude": 125.1671463,
-    "isIndoor": true,
-    "isOutdoor": false,
+    "isIndoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/8N5pXLo6scapXw3w8",
     "openingTime": "14:00",
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/TheCompoundCourts/CompCourts_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/TheCompoundCourts/CompCourts_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/TheCompoundCourts/CompCourts_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/TheCompoundCourts/CompCourts_Banner.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 969 515 9582",
