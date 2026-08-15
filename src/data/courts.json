@@ -498,15 +498,16 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/JNP/JNP_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/JNP/JNP_Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/JNP/JNP_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/JNP/JNP_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/JNP/JNP_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 920 987 6543",
-      "email": "jandp.pickleball@gmail.com",
+      "email": "jppickleball.academy@gmail.com",
       "facebook": "https://www.facebook.com/jppickleballacademy"
     },
     "scheduleNote": "Features 1 covered court and 2 open courts. Offers court rentals and structured training sessions.",
