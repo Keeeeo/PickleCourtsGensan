@@ -7,6 +7,7 @@ import FilterPanel from './components/FilterPanel'
 import HomePage from './pages/HomePage'
 import MapView from './pages/MapView'
 import CourtDetailPage from './pages/CourtDetailPage'
+import AboutPage from './pages/AboutPage'
 import courtsData from './data/courts.json'
 import { useGeolocation } from './hooks/useGeolocation'
 import { haversineDistanceKm } from './utils/haversine'
@@ -123,6 +124,7 @@ export default function App() {
               <CourtDetailPage courts={courtsData} distances={distances} locationStatus={locationStatus} />
             }
           />
+          <Route path="/about" element={<AboutPage />} />
         </Routes>
       </div>
     </div>
