@@ -1265,10 +1265,11 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "215~315",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/ThePickleNeighbour/PNEIGHBOUR_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/ThePickleNeighbour/PNEIGHBOUR_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/ThePickleNeighbour/PNEIGHBOUR_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ThePickleNeighbour/PNEIGHBOUR_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 949 568 7197",
