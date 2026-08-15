@@ -337,19 +337,18 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "100~150",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/FORA/FORA_Banner.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/FORA/FORA_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/FORA/FORA_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/FORA/FORA_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 917 123 4567",
       "email": "fora.gensan@gmail.com",
       "facebook": "https://www.facebook.com/Foragsc"
     },
-    "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering outdoor pickleball courts. Rate ₱100–₱150/hr. For Courts 1 and 2 please bring coins for lights.",
+    "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering 3 outdoor pickleball courts. Rate ₱100–₱150/hr. For Courts 1 and 2 please bring coins for lights.",
     "booking": {
       "type": "messenger",
       "url": "https://www.facebook.com/Foragsc",
