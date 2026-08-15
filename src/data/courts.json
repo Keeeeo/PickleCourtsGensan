@@ -325,7 +325,7 @@
   {
     "id": "fora-gensan",
     "name": "Frasssati Outdoor Recreation Area (FORA)",
-    "address": "Prk. San Miguel, Brgy. Calumpang, General Santos City",
+    "address": "Our Lady Manaog Compound, Nuñez Street, General Santos City",
     "latitude": 6.13677019,
     "longitude": 125.1543746,
     "isIndoor": false,
@@ -337,14 +337,14 @@
     "hasCourtBooking": true,
     "pricePerHour": "100~150",
     "imageUrl": "/images/FORA/FORA_Banner.jpg?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/FORA/FORA.jpg?q=80&w=1600&auto=format&fit=crop",
+    "bannerUrl": "/images/FORA/FORA_C2.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "/images/FORA/FORA_C1.jpg?q=80&w=800&auto=format&fit=crop",
       "/images/FORA/FORA_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 917 123 4567",
-      "email": "fora.gensan@gmail.com",
+      "phone": "",
+      "email": "",
       "facebook": "https://www.facebook.com/Foragsc"
     },
     "scheduleNote": "Open daily 6:00 AM – 1:00 AM. Spacious outdoor multi-sport facility offering 3 outdoor pickleball courts. Rate ₱100–₱150/hr. For Courts 1 and 2 please bring coins for lights.",
