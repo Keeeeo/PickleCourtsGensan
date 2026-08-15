@@ -1297,12 +1297,10 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "300~350",
-    "imageUrl": "https://assets.reclub.co/user-avatars/1146607.webp?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://assets.reclub.co/user-avatars/1146607.webp?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/TheThirdShot/ThirdShot_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/TheThirdShot/ThirdShot_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/TheThirdShot/ThirdShot_C1.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 927 742 5286",
