@@ -20,15 +20,14 @@ export default function AboutPage() {
             PickleCourts GenSan
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-            A community-built directory for General Santos City's pickleball scene — made to help
-            players find a court, not to make anyone money.
+            A community-built, non-commercial website directory for General Santos City's pickleball scene made to help players find a court.
           </p>
         </div>
       </section>
 
-      <div className="mx-auto max-w-4xl px-4 md:px-8">
+      <div className="mx-auto max-w-4xl px-4 pt-8 md:px-8 md:pt-12">
         {/* Mission */}
-        <section className="-mt-10 rounded-card border border-slate-100 bg-white p-6 shadow-card md:-mt-12 md:p-10">
+        <section className="rounded-card border border-slate-100 bg-white p-6 shadow-card md:p-10">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-pickle/10 text-pickle-dark">
               <Users className="h-5 w-5" />
@@ -42,8 +41,8 @@ export default function AboutPage() {
             simple problem: it's genuinely hard to know where to play. Court hours change, new
             venues pop up, and details get passed around informally through group chats and
             Facebook posts. This site pulls that scattered information into one place, so players
-            can easily locate, discover, and filter pickleball courts across General Santos City —
-            by location, price, indoor or outdoor setup, and open-play or booking availability —
+            can easily locate, discover, and filter pickleball courts across General Santos City. They can filter
+            by location, price, indoor or outdoor setup, and open-play or booking availability,
             without having to ask around every time.
           </p>
 
@@ -97,7 +96,7 @@ export default function AboutPage() {
         <section className="mt-8 rounded-card border border-slate-100 bg-white p-6 text-center shadow-card md:p-10">
           <h2 className="font-sans text-xl font-semibold text-slate-900 md:text-2xl">Contact</h2>
           <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-slate-600">
-            Questions, corrections, or a takedown request? Reach out any of these ways.
+            Questions, corrections, or a takedown request? Reach out thru any of these ways.
           </p>
 
           <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:flex-row">
