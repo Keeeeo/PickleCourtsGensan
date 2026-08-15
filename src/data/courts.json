@@ -1009,10 +1009,12 @@
     "hasOpenPlay": false,
     "hasCourtBooking": true,
     "pricePerHour": "215~315",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Sanman/SANMANPP_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Sanman/SANMANPP_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Sanman/SANMANPP_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Sanman/SANMANPP_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Sanman/SANMANPP_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 994 448 6825",
