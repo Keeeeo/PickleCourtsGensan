@@ -596,10 +596,11 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "280~300",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/LPS/LPS_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/LPS/LPS_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/LPS/LPS_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/LPS/LPS_Banner.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 927 614 7022",
