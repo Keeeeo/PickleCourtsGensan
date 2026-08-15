@@ -112,18 +112,19 @@
     "hasCourtBooking": true,
     "pricePerHour": "300~325",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8zxG8gBuTbmqjNJwtoL4iFXgyT-SaEMVdGQMZjAy3NWKRlCjTr6mcKs8&s=10?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA8zxG8gBuTbmqjNJwtoL4iFXgyT-SaEMVdGQMZjAy3NWKRlCjTr6mcKs8&s=10?q=80&w=1600&auto=format&fit=crop",
+    "bannerUrl": "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/36b9bac7-7fbd-4d0e-902f-af7aad4037a3/gallery/1777722821162-m78pt.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
       "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/36b9bac7-7fbd-4d0e-902f-af7aad4037a3/gallery/1777722821162-m78pt.jpg?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Cabin/Cabin_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Cabin/Cabin_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Cabin/Cabin_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 917 888 9900",
       "email": "cabinpickleclub@gmail.com",
       "facebook": "https://www.facebook.com/thecabinbrewery"
     },
-    "scheduleNote": "Open daily 5:00 AM – 12:00 AM. 5 courts total (2 outdoor silica-sand and 3 indoor). Outdoor rates: ₱300/hr (8AM-6PM) & ₱325/hr (6PM-12MN).",
+    "scheduleNote": "Open daily 5:00 AM – 12:00 AM. 8 courts total (2 outdoor silica-sand and 6 indoor). Outdoor rates: ₱300/hr (8AM-6PM) & ₱325/hr (6PM-12MN).",
     "booking": {
       "type": "pickle-hub",
       "url": "https://picklehub.ph/cabin-pickle-club?tab=home",
