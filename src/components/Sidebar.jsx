@@ -1,9 +1,10 @@
 import { NavLink } from 'react-router-dom'
-import { Home, MapPinned } from 'lucide-react'
+import { Home, MapPinned, Info } from 'lucide-react'
 
 const navItems = [
   { to: '/', label: 'Home', icon: Home, end: true },
   { to: '/map', label: 'Map', icon: MapPinned },
+  { to: '/about', label: 'About Us', icon: Info },
 ]
 
 export default function Sidebar({ onOpenFilters }) {
@@ -39,7 +40,7 @@ export default function Sidebar({ onOpenFilters }) {
 
       <div className="hidden lg:block px-6 py-5 border-t border-white/10">
         <p className="text-slate-400 text-xs leading-relaxed">
-          All court names, logos, pictures, and trademarks displayed on this site are the property of their respective owners. Their inclusion in this directory is for informational/identification purposes only and does not imply endorsement or official affiliation.
+          Every court on this list, one kitchen line at a time.
         </p>
       </div>
     </aside>
