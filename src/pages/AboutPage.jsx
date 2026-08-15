@@ -111,7 +111,7 @@ export default function AboutPage() {
               Facebook
             </a>
             <a
-              href={`mailto:${CONTACTS.email}`}
+              href={'mailto:zheddrickkeith@gmail.com'}
               className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-pickle px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-pickle-dark sm:w-auto"
             >
               <Mail className="h-4 w-4" />
