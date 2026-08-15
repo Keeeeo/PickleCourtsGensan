@@ -358,21 +358,23 @@
   {
     "id": "frndzone-playhub",
     "name": "FRNDZONE Playhub",
-    "address": "Ricvill, San Jose, Near Airport,",
+    "address": "Purok Ricvill, San Jose, Near Airport,",
     "latitude": 6.0799699,
     "longitude": 125.0855894,
-    "isIndoor": true,
-    "isOutdoor": false,
+    "isIndoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/133whi3br3dRnUZk9",
     "openingTime": "05:00",
     "closingTime": "24:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "120~170",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/FRNDZONE/FRNDZONE_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/FRNDZONE/FRNDZONE_Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/FRNDZONE/FRNDZONE_C1.jpg?q=80&w=800&auto=format&fit=crop", 
+      "/images/FRNDZONE/FRNDZONE_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/FRNDZONE/FRNDZONE_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 946 509 2385",
@@ -399,18 +401,19 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": "100~200",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": "200~250",
+    "imageUrl": "/images/GMYRD/GMYRD_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/GMYRD/GMYRD__Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/GMYRD/GMYRD_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/GMYRD/GMYRD_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 970 895 0138",
       "email": "gameyard.gsc@gmail.com",
       "facebook": "https://www.facebook.com/gameyardgensan"
     },
-    "scheduleNote": "Community pickleball spot featuring casual round-robin matches. Rates: ₱100/hr (6AM-5PM) & ₱200/hr (5PM-11PM).",
+    "scheduleNote": "Community pickleball spot featuring casual round-robin matches. Rates: ₱200/hr (6AM-5PM) & ₱250/hr (5PM-11PM).",
     "booking": {
       "type": "kobweb",
       "url": "https://kobwebcourts.cleverkobweb.com/facilities/1/book",
