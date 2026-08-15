@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Sidebar from './components/Sidebar'
 import MobileHeader from './components/MobileHeader'
 import MobileDrawer from './components/MobileDrawer'
@@ -28,6 +28,8 @@ export default function App() {
   })
 
   const { position, status: locationStatus, request: requestLocation } = useGeolocation({ auto: true })
+  const location = useLocation()
+  const isMapView = location.pathname.startsWith('/map')
 
   const distances = useMemo(() => {
     if (!position) return {}
@@ -88,6 +90,7 @@ export default function App() {
         onAvailabilityChange={setAvailability}
         locationStatus={locationStatus}
         onRequestLocation={requestLocation}
+        hideSortBy={isMapView}
       />
 
       <div className="md:pl-20 lg:pl-64">
