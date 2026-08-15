@@ -110,11 +110,14 @@ export default function App() {
             path="/map"
             element={
               <MapView
-                courts={courtsData}
+                courts={visibleCourts}
                 distances={distances}
                 position={position}
                 locationStatus={locationStatus}
                 onRequestLocation={requestLocation}
+                query={query}
+                onQueryChange={setQuery}
+                onOpenFilters={() => setFiltersOpen(true)}
               />
             }
           />
