@@ -13,17 +13,19 @@
     "hasOpenPlay": false,
     "hasCourtBooking": true,
     "pricePerHour": "250",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/965/965_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/965/965_C3.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/965/965_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/965/965_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/965/965_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 967 236 6834",
       "email": "965pickle@gmail.com",
       "facebook": "https://www.facebook.com/profile.php?id=61589508478306"
     },
-    "scheduleNote": "Well-lit court facility available for morning and evening rentals. Rates: ₱250/hr.)",
+    "scheduleNote": "Well-lit court facility available for morning and evening rentals. Open Daily featuring 2 outdoor courts. Rates: ₱250/hr.",
     "booking": {
       "type": "custom",
       "url": "https://kobwebcourts.cleverkobweb.com/facilities/6/book",
