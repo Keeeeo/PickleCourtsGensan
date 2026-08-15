@@ -1,4 +1,4 @@
-import { MapContainer, TileLayer, Marker } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, ZoomControl } from 'react-leaflet'
 import L from 'leaflet'
 
 function pinIcon() {
@@ -20,8 +20,9 @@ function pinIcon() {
 }
 
 /**
- * Small, non-interactive location snippet map used on the Court Details page.
- * Centers on the court's latitude/longitude and drops a single pin marker.
+ * Interactive location map used on the Court Details page.
+ * Centers on the court's latitude/longitude, drops a single pin marker, and
+ * supports dragging/panning, scroll/pinch zoom, and zoom controls.
  */
 export default function LocationMiniMap({ latitude, longitude, name }) {
   if (latitude == null || longitude == null) return null
@@ -29,21 +30,23 @@ export default function LocationMiniMap({ latitude, longitude, name }) {
   const position = [latitude, longitude]
 
   return (
-    <div className="h-40 w-full rounded-xl overflow-hidden border border-slate-200">
+    <div className="relative isolate h-56 w-full rounded-xl overflow-hidden border border-slate-200">
       <MapContainer
         center={position}
         zoom={15}
-        scrollWheelZoom={false}
-        dragging={false}
-        doubleClickZoom={false}
-        touchZoom={false}
+        scrollWheelZoom
+        dragging
+        doubleClickZoom
+        touchZoom
         zoomControl={false}
-        attributionControl={false}
+        attributionControl
         className="w-full h-full"
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         />
+        <ZoomControl position="bottomright" />
         <Marker position={position} icon={pinIcon()} />
       </MapContainer>
     </div>
