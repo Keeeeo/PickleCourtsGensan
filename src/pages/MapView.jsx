@@ -1,7 +1,18 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo } from 'react'
 import { MapContainer, TileLayer, Marker, Popup, Tooltip, useMap } from 'react-leaflet'
 import L from 'leaflet'
-import { Crosshair, Users, CalendarCheck, MapPin, Navigation, Plus, Minus, Search, X } from 'lucide-react'
+import {
+  Crosshair,
+  Users,
+  CalendarCheck,
+  MapPin,
+  Navigation,
+  Plus,
+  Minus,
+  Search,
+  X,
+  SlidersHorizontal,
+} from 'lucide-react'
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
 import { formatPriceRange } from '../utils/price'
@@ -131,11 +142,15 @@ function SearchFlyTo({ query, matches }) {
   return null
 }
 
-/** Compact search bar pinned to the top-right of the map. */
-function TopRightSearch({ value, onChange }) {
+/** Search bar + Filter button, overlaid at the top-left of the map — mirrors
+ * the search/filter pairing used on the Home page. The Filter button opens
+ * the same global FilterPanel, and its selections (indoor/outdoor, open
+ * play/booking, open now, etc.) narrow down the pinned markers just like
+ * they narrow the Home page list. */
+function TopLeftSearchAndFilter({ value, onChange, onOpenFilters }) {
   return (
-    <div className="absolute top-4 right-4 z-[1000] w-[min(15rem,calc(100vw-2rem))]">
-      <div className="flex items-center gap-2 bg-white shadow-card rounded-xl px-3 py-2.5">
+    <div className="absolute top-4 left-4 z-[1000] flex items-center gap-2 w-[min(24rem,calc(100vw-2rem))]">
+      <div className="flex min-w-0 flex-1 items-center gap-2 bg-white shadow-card rounded-xl px-3 py-2.5">
         <Search className="w-4 h-4 text-slate-400 shrink-0" />
         <input
           type="text"
@@ -143,7 +158,7 @@ function TopRightSearch({ value, onChange }) {
           onChange={(e) => onChange(e.target.value)}
           placeholder="Search courts..."
           aria-label="Search courts by name or address"
-          className="w-full bg-transparent text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none"
+          className="w-full min-w-0 bg-transparent text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none"
         />
         {value && (
           <button
@@ -156,13 +171,30 @@ function TopRightSearch({ value, onChange }) {
           </button>
         )}
       </div>
+      <button
+        type="button"
+        onClick={onOpenFilters}
+        aria-label="Open filters"
+        className="shrink-0 flex items-center gap-1.5 bg-white shadow-card rounded-xl px-3.5 py-2.5 text-sm font-semibold text-slate-700 hover:bg-slate-50"
+      >
+        <SlidersHorizontal className="w-4 h-4" />
+        <span className="hidden sm:inline">Filter</span>
+      </button>
     </div>
   )
 }
 
-export default function MapView({ courts, distances, position, locationStatus, onRequestLocation }) {
+export default function MapView({
+  courts,
+  distances,
+  position,
+  locationStatus,
+  onRequestLocation,
+  query,
+  onQueryChange,
+  onOpenFilters,
+}) {
   const center = position ? [position.latitude, position.longitude] : GENSAN_CENTER
-  const [searchQuery, setSearchQuery] = useState('')
 
   const icons = useMemo(() => {
     const cache = {}
@@ -172,14 +204,6 @@ export default function MapView({ courts, distances, position, locationStatus, o
     }
   }, [])
 
-  const filteredCourts = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase()
-    if (!q) return courts
-    return courts.filter(
-      (c) => c.name.toLowerCase().includes(q) || c.address?.toLowerCase().includes(q),
-    )
-  }, [courts, searchQuery])
-
   return (
     <main className="h-[calc(100vh-4rem)] md:h-screen relative isolate">
       <MapContainer center={center} zoom={13} scrollWheelZoom zoomControl={false} className="w-full h-full">
@@ -188,7 +212,7 @@ export default function MapView({ courts, distances, position, locationStatus, o
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
 
-        {filteredCourts.map((court) => {
+        {courts.map((court) => {
           const bookingUrl = court.booking?.url
           const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
           const externalRel = externalTarget ? 'noreferrer' : undefined
@@ -316,15 +340,15 @@ export default function MapView({ courts, distances, position, locationStatus, o
         {position && <Marker position={[position.latitude, position.longitude]} icon={userIcon} />}
 
         <BottomRightControls
-          totalCourts={filteredCourts.length}
+          totalCourts={courts.length}
           locationStatus={locationStatus}
           onRequestLocation={onRequestLocation}
           position={position}
         />
-        <SearchFlyTo query={searchQuery} matches={filteredCourts} />
+        <SearchFlyTo query={query} matches={courts} />
       </MapContainer>
 
-      <TopRightSearch value={searchQuery} onChange={setSearchQuery} />
+      <TopLeftSearchAndFilter value={query} onChange={onQueryChange} onOpenFilters={onOpenFilters} />
     </main>
   )
 }
