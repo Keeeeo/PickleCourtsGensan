@@ -51,7 +51,7 @@ export default function MobileDrawer({ open, onClose }) {
 
         <div className="px-6 py-5 border-t border-white/10">
           <p className="text-slate-400 text-xs leading-relaxed">
-            Every court on this list, one kitchen line at a time.
+            All court names, logos, pictures, and trademarks displayed on this site are the property of their respective owners. Their inclusion in this directory is for informational/identification purposes only and does not imply endorsement or official affiliation.
           </p>
         </div>
       </div>
