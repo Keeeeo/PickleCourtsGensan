@@ -305,16 +305,16 @@
     "hasCourtBooking": true,
     "pricePerHour": "300~350",
     "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10q=80&w=1600&auto=format&fit=crop",
+    "bannerUrl": "/images/DinkOC/DinkOC_Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/DinkOC/DinkOC_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/DinkOC/DINKOC_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/DinkOC/DinkOC_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 960 579 9296",
       "email": "dinkoclockpickle@gmail.com",
-      "facebook": "https://facebook.com/dinkoclockpickle"
+      "facebook": "https://www.facebook.com/dinkoclock"
     },
     "scheduleNote": "Open daily 6:00 AM – 1:00 AM. 5 indoor acrylic-coated concrete courts. Rate ₱300/hr (6:00 AM – 4:00 PM) and ₱350/hr (4:00 PM – 1:00 AM).",
     "booking": {
