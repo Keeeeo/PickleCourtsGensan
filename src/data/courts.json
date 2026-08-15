@@ -133,7 +133,7 @@
   },
   {
     "id": "ccm-picklers",
-    "name": "CCM Picklers",
+    "name": "CCM Pickleball Court",
     "address": "CCM Sports Center, Purok Masagana, Barangay San Isidro, General Santos City, ",
     "latitude": 6.1537243,
     "longitude": 125.1651956,
@@ -145,10 +145,11 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "100~200",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/CCM/CCM_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/CCM/CCM_Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/CCM/CCM_C1.jpg?q=80&w=800&auto=format&fit=crop", 
+      "/images/CCM/CCM_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 945 839 5461",
