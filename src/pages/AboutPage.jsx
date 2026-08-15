@@ -111,7 +111,7 @@ export default function AboutPage() {
 
         {/* Contact */}
         <section className="mt-8 rounded-card border border-slate-100 bg-white p-6 text-center shadow-card md:p-10">
-          <h2 className="font-sans text-xl font-semibold text-slate-900 md:text-2xl">Contact</h2>
+          <h2 className="font-sans text-xl font-semibold text-slate-900 md:text-2xl">Contacts</h2>
           <p className="mx-auto mt-2 max-w-md text-sm leading-6 text-slate-600">
             Questions, corrections, or a takedown request? Reach out thru any of these ways.
           </p>

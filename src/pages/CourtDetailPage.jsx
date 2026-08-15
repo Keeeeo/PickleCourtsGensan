@@ -153,7 +153,15 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
         {/* Right column: contact + booking */}
         <aside className="space-y-5">
           <div className="bg-white rounded-card shadow-card p-5">
-            <h2 className="font-sans font-bold text-base text-slate-900 mb-3">Contact</h2>
+            <div className="flex items-center justify-between mb-3">
+              <h2 className="font-sans font-bold text-base text-slate-900">Contact</h2>
+              <Link
+                to="/about"
+                className="text-xs font-semibold text-slate-400 hover:text-court transition-colors"
+              >
+                Update / Remove
+              </Link>
+            </div>
             <ul className="space-y-2.5 text-sm">
               <li className="flex items-start gap-2.5 text-slate-600">
                 <MapPin className="w-4 h-4 shrink-0 mt-0.5 text-court" />
