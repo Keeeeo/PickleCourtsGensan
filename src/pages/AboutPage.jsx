@@ -1,4 +1,5 @@
-import { Facebook, Mail, Linkedin, ShieldCheck, Megaphone } from 'lucide-react'
+import { useState } from 'react'
+import { Facebook, Mail, Linkedin, ShieldCheck, Megaphone, Check } from 'lucide-react'
 
 // TODO: replace these with your real outreach links before deploying.
 const CONTACTS = {
@@ -8,6 +9,21 @@ const CONTACTS = {
 }
 
 export default function AboutPage() {
+  const [copied, setCopied] = useState(false)
+
+  const handleEmailClick = async (e) => {
+    // Let the mailto: link do its normal thing if a mail client is set up.
+    // As a fallback for desktop browsers with no default mail app, also copy
+    // the address to the clipboard and show a quick confirmation.
+    try {
+      await navigator.clipboard.writeText(CONTACTS.email)
+      setCopied(true)
+      setTimeout(() => setCopied(false), 2000)
+    } catch {
+      // Clipboard API unavailable (e.g. insecure context) — mailto: link still works.
+    }
+  }
+
   return (
     <main className="pb-16 bg-slate-50">
       {/* Hero: dark slate, matches the sidebar / header brand treatment */}
@@ -20,7 +36,7 @@ export default function AboutPage() {
             PickleCourts GenSan
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-            A community-built, non-commercial directory for General Santos City's pickleball scene  made to help
+            A community-built, non-commercial directory for General Santos City's pickleball scene made to help
             players find a court.
           </p>
         </div>
@@ -42,7 +58,7 @@ export default function AboutPage() {
             simple problem: it's genuinely hard to know where to play. Court hours change, new
             venues pop up, and details get passed around informally through group chats and
             Facebook posts. This site pulls that scattered information into one place, so players
-            can easily locate, discover, and filter pickleball courts across General Santos City. They can filter
+            can easily locate, discover, and filter pickleball courts across General Santos City. They can filter 
             by location, price, indoor or outdoor setup, and open-play or booking availability, 
             without having to ask around every time.
           </p>
@@ -104,18 +120,19 @@ export default function AboutPage() {
             <a
               href={CONTACTS.facebook}
               target="_blank"
-              rel="https://www.facebook.com/keithzheddrick.siaor"
+              rel="noreferrer"
               className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-court px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-court/90 sm:w-auto"
             >
               <Facebook className="h-4 w-4" />
               Facebook
             </a>
             <a
-              href={'mailto:zheddrickkeith@gmail.com'}
+              href={`mailto:${CONTACTS.email}`}
+              onClick={handleEmailClick}
               className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-pickle px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-pickle-dark sm:w-auto"
             >
-              <Mail className="h-4 w-4" />
-              Email
+              {copied ? <Check className="h-4 w-4" /> : <Mail className="h-4 w-4" />}
+              {copied ? 'Copied!' : 'Email'}
             </a>
             <a
               href={CONTACTS.linkedin}
@@ -127,6 +144,10 @@ export default function AboutPage() {
               LinkedIn
             </a>
           </div>
+          <p className="mt-3 text-xs text-slate-400">
+            No mail app on this device? The Email button copies{' '}
+            <span className="font-medium text-slate-500">{CONTACTS.email}</span> to your clipboard.
+          </p>
         </section>
       </div>
     </main>
