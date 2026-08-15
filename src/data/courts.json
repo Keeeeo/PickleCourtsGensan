@@ -465,14 +465,16 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/GMALL/GMALL_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/GMALL/GMALL_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/GMALL/GMALL_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/GMALL/GMALL_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/GMALL/GMALL_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 956 263 3197",
-      "email": "gmall.pickleball@gmail.com",
+      "email": "",
       "facebook": "https://www.facebook.com/profile.php?id=61581327036795"
     },
     "scheduleNote": "Conveniently located inside Gaisano Mall with air-conditioned comfort. WALK-INS Only",
