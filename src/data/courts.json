@@ -62,7 +62,7 @@
     "booking": {
       "type": "sport360",
       "url": "https://app.sports360.ph/sportshub/altori-park-pickleball",
-      "label": "Book on Sport360"
+      "label": "Book on Sports360"
     }
   },
   {
@@ -160,7 +160,7 @@
     "booking": {
       "type": "sport360",
       "url": "https://l.facebook.com/l.php?u=https%3A%2F%2Fapp.sports360.ph%2Fsportshub%2Fccm-picklers-sports-center%3Ffbclid%3DIwcGRvZgVleHRuA2FlbQIxMABicmlkETFkUUdVa3loa2hTaW1NTzRvc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHtXIkn4mHGWYiqcHMuWgxu4z4A_TtPowZhhKhEhGh6GklHnBAO4pJJrUNEwH_aem_0bFelsNRnKv6UU34kuxGCA&h=AUA0b_dTKzL6lFfDHr-KIbrQci-aU-bPf3ns7r8wde2rGXA2y4B0u8AOdcPTkmfoLrK-jyHJt9nPckj8dafpNoy0Zfq46CQHfZcLB4FdJ1bFJmG4ROfOXbPbXzDr20_6vwq-3V6_c3uZrBUZmtTm",
-      "label": "Book on Sport360"
+      "label": "Book on Sports360"
     }
   },
   {
@@ -207,12 +207,12 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "260~310",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/City/City_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/City/City_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/City/City_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/City/City_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/City/City_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 945 542 2200",
