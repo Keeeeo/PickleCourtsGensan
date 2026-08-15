@@ -1,10 +1,10 @@
-import { Facebook, Mail, Linkedin, ShieldCheck, Users, MapPin } from 'lucide-react'
+import { Facebook, Mail, Linkedin, ShieldCheck, Megaphone } from 'lucide-react'
 
 // TODO: replace these with your real outreach links before deploying.
 const CONTACTS = {
-  facebook: 'https://facebook.com/picklecourtsgensan',
-  email: 'picklecourtsgensan@gmail.com',
-  linkedin: 'https://linkedin.com/in/keith',
+  facebook: 'https://www.facebook.com/keithzheddrick.siao',
+  email: 'zheddrickkeith@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/keith-siao/',
 }
 
 export default function AboutPage() {
@@ -20,7 +20,8 @@ export default function AboutPage() {
             PickleCourts GenSan
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-            A community-built, non-commercial website directory for General Santos City's pickleball scene made to help players find a court.
+            A community-built, non-commercial directory for General Santos City's pickleball scene  made to help
+            players find a court.
           </p>
         </div>
       </section>
@@ -29,8 +30,8 @@ export default function AboutPage() {
         {/* Mission */}
         <section className="rounded-card border border-slate-100 bg-white p-6 shadow-card md:p-10">
           <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-pickle/10 text-pickle-dark">
-              <Users className="h-5 w-5" />
+            <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden bg-transparent">
+              <img src="/images/PCGSC_logo.png" alt="PCGSC logo" className="h-full w-full object-contain" />
             </div>
             <h2 className="font-sans text-xl font-semibold text-slate-900 md:text-2xl">
               What is PickleCourts GenSan?
@@ -42,12 +43,12 @@ export default function AboutPage() {
             venues pop up, and details get passed around informally through group chats and
             Facebook posts. This site pulls that scattered information into one place, so players
             can easily locate, discover, and filter pickleball courts across General Santos City. They can filter
-            by location, price, indoor or outdoor setup, and open-play or booking availability,
+            by location, price, indoor or outdoor setup, and open-play or booking availability, 
             without having to ask around every time.
           </p>
 
           <div className="mt-6 flex items-start gap-3 rounded-xl bg-court/5 px-4 py-3">
-            <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-court" />
+            <Megaphone className="mt-0.5 h-4 w-4 shrink-0 text-court" />
             <p className="text-sm leading-6 text-slate-600">
               <span className="font-semibold text-slate-900">Developer note:</span> This platform
               was independently developed by <span className="font-semibold text-slate-900">Keith</span> as
@@ -103,7 +104,7 @@ export default function AboutPage() {
             <a
               href={CONTACTS.facebook}
               target="_blank"
-              rel="noreferrer"
+              rel="https://www.facebook.com/keithzheddrick.siaor"
               className="inline-flex w-full items-center justify-center gap-2 rounded-2xl bg-court px-5 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-court/90 sm:w-auto"
             >
               <Facebook className="h-4 w-4" />
@@ -119,7 +120,7 @@ export default function AboutPage() {
             <a
               href={CONTACTS.linkedin}
               target="_blank"
-              rel="noreferrer"
+              rel="https://www.linkedin.com/in/keith-siao/"
               className="inline-flex w-full items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-900 shadow-sm transition hover:bg-slate-50 sm:w-auto"
             >
               <Linkedin className="h-4 w-4 text-court" />
