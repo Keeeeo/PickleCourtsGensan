@@ -37,20 +37,6 @@ const userIcon = L.divIcon({
   iconAnchor: [9, 9],
 })
 
-function RecenterButton({ position }) {
-  const map = useMap()
-  if (!position) return null
-  return (
-    <button
-      onClick={() => map.flyTo([position.latitude, position.longitude], 14)}
-      className="absolute bottom-6 right-4 z-[1000] bg-white shadow-card rounded-full p-3 hover:bg-slate-50"
-      aria-label="Center on my location"
-    >
-      <Crosshair className="w-5 h-5 text-court" />
-    </button>
-  )
-}
-
 /** Vertically stacked +/- zoom buttons, styled to sit directly on top of the info card. */
 function ZoomStack() {
   const map = useMap()
@@ -77,18 +63,34 @@ function ZoomStack() {
 }
 
 /**
- * Bottom-left cluster: zoom controls stacked on top of the court-count card,
- * with the "Share location" button placed beside the card.
+ * Bottom-right cluster: recenter button (if a user location is available) and
+ * the zoom stack sit on top, with the "Share location" button and the
+ * court-count card in a row underneath — wrapping onto its own line instead
+ * of overflowing on narrow mobile viewports, and respecting the device's
+ * bottom safe-area inset (home indicator / gesture bar) so nothing gets
+ * clipped off-screen.
  */
-function BottomLeftControls({ totalCourts, locationStatus, onRequestLocation }) {
+function BottomRightControls({ totalCourts, locationStatus, onRequestLocation, position }) {
+  const map = useMap()
+
   return (
-    <div className="absolute bottom-6 left-4 z-[1000] flex flex-col items-start gap-2">
+    <div
+      className="absolute right-4 z-[1000] flex max-w-[calc(100vw-2rem)] flex-col items-end gap-2"
+      style={{ bottom: 'max(1rem, env(safe-area-inset-bottom))' }}
+    >
+      {position && (
+        <button
+          onClick={() => map.flyTo([position.latitude, position.longitude], 14)}
+          className="bg-white shadow-card rounded-full p-3 hover:bg-slate-50"
+          aria-label="Center on my location"
+        >
+          <Crosshair className="w-5 h-5 text-court" />
+        </button>
+      )}
+
       <ZoomStack />
-      <div className="flex items-center gap-3">
-        <div className="bg-white shadow-card rounded-xl px-4 py-2.5">
-          <p className="font-display font-700 text-sm text-slate">GenSan Court Map</p>
-          <p className="text-xs text-slate-500">{totalCourts} courts pinned</p>
-        </div>
+
+      <div className="flex flex-wrap items-center justify-end gap-2">
         {locationStatus !== 'granted' && (
           <button
             onClick={onRequestLocation}
@@ -97,6 +99,10 @@ function BottomLeftControls({ totalCourts, locationStatus, onRequestLocation }) 
             Share location
           </button>
         )}
+        <div className="bg-white shadow-card rounded-xl px-4 py-2.5 text-right">
+          <p className="font-display font-700 text-sm text-slate">GenSan Court Map</p>
+          <p className="text-xs text-slate-500">{totalCourts} courts pinned</p>
+        </div>
       </div>
     </div>
   )
@@ -309,12 +315,12 @@ export default function MapView({ courts, distances, position, locationStatus, o
 
         {position && <Marker position={[position.latitude, position.longitude]} icon={userIcon} />}
 
-        <BottomLeftControls
+        <BottomRightControls
           totalCourts={filteredCourts.length}
           locationStatus={locationStatus}
           onRequestLocation={onRequestLocation}
+          position={position}
         />
-        <RecenterButton position={position} />
         <SearchFlyTo query={searchQuery} matches={filteredCourts} />
       </MapContainer>
 
