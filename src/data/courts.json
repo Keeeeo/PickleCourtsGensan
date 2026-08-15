@@ -683,18 +683,19 @@
     "address": "Upper Villegas, ABS-CBN beside Imperial Bodega, General Santos City (Dadiangas)",
     "latitude": 6.1431593,
     "longitude": 125.1742063,
-    "isIndoor": true,
-    "isOutdoor": false,
+    "isIndoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/uDNzGxhK6ERNzHrn7",
     "openingTime": "06:00",
     "closingTime": "03:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "295",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Pickle_barn/PBARN_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Pickle_barn/PBARN_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Pickle_barn/PBARN_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Pickle_barn/PBARN_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 991 516 1853",
