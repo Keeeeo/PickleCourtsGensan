@@ -1194,17 +1194,17 @@
     "latitude": 6.1272335,
     "longitude": 125.192471,
     "isIndoor": true,
-    "isOutdoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/V2U6DVJAbDcS8qRL6",
     "openingTime": "00:00",
     "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "300~350",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/ThePaddleClub/PADLCLB_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/ThePaddleClub/PADLCLB_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/ThePaddleClub/PADLCLB_Banner.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 930 745 8212",
