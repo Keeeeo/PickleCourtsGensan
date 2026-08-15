@@ -913,12 +913,11 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250~350",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Picklepals/PPals_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Picklepals/PPals_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Picklepals/PPals_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Picklepals/PPals_C2.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 993 807 9808",
