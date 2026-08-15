@@ -755,10 +755,10 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "265",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Pickle_Panic/PPANIC_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Pickle_Panic/PPANIC_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Pickle_Panic/PPANIC_C1.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "",
