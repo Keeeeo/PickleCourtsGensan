@@ -1320,8 +1320,8 @@
     "address": "Lot 4, Block 5, Greenfield Residences, Lucio Velayo Sr St (Nursery Road), Brgy. Lagao, General Santos City",
     "latitude": 6.1438433,
     "longitude": 125.2027057,
-    "isIndoor": true,
-    "isOutdoor": false,
+    "isIndoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/LvKprZ9k6M7SQ4Ff9",
     "openingTime": "00:00",
     "closingTime": "24:00",
@@ -1361,10 +1361,13 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "265",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/vpark/VPARK_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/vpark/VPARK_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/vpark/VPARK_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C3.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C4.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 916 629 1443",
