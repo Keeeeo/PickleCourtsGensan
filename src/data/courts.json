@@ -169,18 +169,17 @@
     "address": "Manansala Street, Dadiangas North, General Santos ",
     "latitude": 6.1177578,
     "longitude": 125.167649,
-    "isIndoor": false,
-    "isOutdoor": true,
+    "isIndoor": true,
+    "isOutdoor": false,
     "googleMapsUrl": "https://maps.app.goo.gl/YesBChcUndWDdpU19",
     "openingTime": "08:00",
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "315~365",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Central/Central_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Central/Central_logo.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 968 720 0124",
