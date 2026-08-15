@@ -882,11 +882,10 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "315~365",
-    "imageUrl": "?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Picklehubncafe/PCAFE_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Picklehubncafe/PCAFE_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Picklehubncafe/PCAFE_C1.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 952 457 6098",
