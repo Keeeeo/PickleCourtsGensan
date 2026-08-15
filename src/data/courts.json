@@ -240,12 +240,12 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "215~310",
-    "imageUrl": "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/7e89006a-ce67-409c-b0a0-70cd6033a54e/gallery/1776676786715-0fkp1.jpg?q=80&w=800&auto=format&fit=crop",
+    "imageUrl": "/images/Court_Zero/CourtZ_logo.jpg?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "https://odimuhhyzyzdymujymzy.supabase.co/storage/v1/object/public/club-images/7e89006a-ce67-409c-b0a0-70cd6033a54e/gallery/1776676786715-0fkp1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop",
-      "?q=80&w=800&auto=format&fit=crop"
+      "/images/Court_Zero/CourtZ_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Court_Zero/CourtZ_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Court_Zero/CourtZ_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 960 200 9482",
