@@ -13,6 +13,7 @@ import {
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
 import { formatPriceRange } from '../utils/price'
+import { getCourtEnvironment } from '../utils/CourtEnvironment'
 import LocationMiniMap from '../components/LocationMiniMap'
 
 export default function CourtDetailPage({ courts, distances, locationStatus }) {
@@ -25,6 +26,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
   const bookingUrl = court.booking?.url
   const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
   const externalRel = externalTarget ? 'noreferrer' : undefined
+  const environment = getCourtEnvironment(court)
 
   return (
     <main className="pb-16">
@@ -228,6 +230,20 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
               </span>
               <span className="font-mono font-semibold text-slate">{formatPriceRange(court.pricePerHour)}</span>
             </div>
+
+            {environment && (
+              <div className="mt-2 flex items-center justify-between text-sm">
+                <span className="flex items-center gap-1.5 text-slate-500">
+                  <environment.icon className="w-4 h-4" />
+                  Environment
+                </span>
+                <span
+                  className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold ${environment.badgeClass}`}
+                >
+                  {environment.label}
+                </span>
+              </div>
+            )}
 
             {locationStatus === 'granted' && distances?.[court.id] != null && (
               <div className="mt-2 flex items-center justify-between text-sm">
