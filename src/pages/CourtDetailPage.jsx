@@ -238,7 +238,7 @@ export default function CourtDetailPage({ courts, distances, locationStatus }) {
                   Environment
                 </span>
                 <span
-                  className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold ${environment.badgeClass}`}
+                  className={`inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold ${environment.containerClass} ${environment.textClass}`}
                 >
                   {environment.label}
                 </span>
