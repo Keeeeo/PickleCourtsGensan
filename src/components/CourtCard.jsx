@@ -4,6 +4,7 @@ import { MapPin, Navigation, Users, CalendarCheck, CircleDot } from 'lucide-reac
 import { formatDistance } from '../utils/haversine'
 import { isCourtOpen } from '../utils/courtStatus'
 import { formatPriceRange } from '../utils/price'
+import { getCourtEnvironment } from '../utils/CourtEnvironment'
 
 export default function CourtCard({ court, distanceKm, locationStatus }) {
   const [hasImageError, setHasImageError] = useState(false)
@@ -11,6 +12,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
   const bookingUrl = court.booking?.url
   const externalTarget = bookingUrl?.startsWith('tel:') ? undefined : '_blank'
   const externalRel = externalTarget ? 'noreferrer' : undefined
+  const environment = getCourtEnvironment(court)
 
   return (
     <div className="group overflow-hidden rounded-3xl border border-slate-100 bg-white shadow-sm transition-all duration-200 hover:-translate-y-1 hover:shadow-xl">
@@ -39,6 +41,15 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
           <span className={`h-2.5 w-2.5 rounded-full ${isOpen ? 'bg-emerald-400' : 'bg-slate-400'}`} />
           {isOpen ? 'Open' : 'Closed'}
         </span>
+
+        {environment && (
+          <span
+            className={`absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border bg-white/90 px-3 py-1.5 text-xs font-semibold backdrop-blur-sm ${environment.badgeClass}`}
+          >
+            <environment.icon className="h-3.5 w-3.5" />
+            {environment.shortLabel}
+          </span>
+        )}
       </div>
 
       <div className="flex flex-col gap-4 p-5">
