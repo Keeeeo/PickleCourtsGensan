@@ -44,7 +44,7 @@ export default function CourtCard({ court, distanceKm, locationStatus }) {
 
         {environment && (
           <span
-            className={`absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full border bg-white/90 px-3 py-1.5 text-xs font-semibold backdrop-blur-sm ${environment.badgeClass}`}
+            className={`absolute left-4 top-4 inline-flex items-center gap-1.5 rounded-full px-3 py-1.5 text-xs font-semibold ${environment.containerClass} ${environment.textClass}`}
           >
             <environment.icon className="h-3.5 w-3.5" />
             {environment.shortLabel}
