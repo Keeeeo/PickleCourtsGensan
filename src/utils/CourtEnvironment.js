@@ -7,7 +7,13 @@ import { Home, Sun, Umbrella } from 'lucide-react'
  *   - indoor only -> "Indoor"
  *   - outdoor only -> "Outdoor"
  *   - neither set -> null (nothing to show)
+ *
+ * All variants share the same high-contrast dark, semi-transparent pill
+ * container (matching the Open/Closed badge treatment) and differ only by
+ * icon + accent text color.
  */
+const CONTAINER_CLASS = 'bg-slate-900/85 backdrop-blur-md border border-white/10'
+
 export function getCourtEnvironment(court) {
   const indoor = Boolean(court?.isIndoor)
   const outdoor = Boolean(court?.isOutdoor)
@@ -17,8 +23,8 @@ export function getCourtEnvironment(court) {
       label: 'Indoor/Outdoor (Covered)',
       shortLabel: 'Covered',
       icon: Umbrella,
-      badgeClass: 'bg-violet-50 text-violet-700 border-violet-200',
-      dotClass: 'bg-violet-500',
+      textClass: 'text-purple-400',
+      containerClass: CONTAINER_CLASS,
     }
   }
   if (indoor) {
@@ -26,8 +32,8 @@ export function getCourtEnvironment(court) {
       label: 'Indoor',
       shortLabel: 'Indoor',
       icon: Home,
-      badgeClass: 'bg-sky-50 text-sky-700 border-sky-200',
-      dotClass: 'bg-sky-500',
+      textClass: 'text-sky-400',
+      containerClass: CONTAINER_CLASS,
     }
   }
   if (outdoor) {
@@ -35,9 +41,10 @@ export function getCourtEnvironment(court) {
       label: 'Outdoor',
       shortLabel: 'Outdoor',
       icon: Sun,
-      badgeClass: 'bg-amber-50 text-amber-700 border-amber-200',
-      dotClass: 'bg-amber-500',
+      textClass: 'text-amber-400',
+      containerClass: CONTAINER_CLASS,
     }
   }
   return null
 }
+
