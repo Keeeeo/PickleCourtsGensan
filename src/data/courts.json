@@ -977,11 +977,13 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "250~300",
-    "imageUrl": "/images/Rallypoint/RPoint_logo.jpg?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/Rallypoint/RPoint_C1.jpg?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/RGR/RGR_Logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/RGR/RGR_Banner.png?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "/images/Rallypoint/RPoint_C1.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/Rallypoint/RPoint_C2.jpg?q=80&w=800&auto=format&fit=crop"
+      "/images/RGR/RGR_C1.webp?q=80&w=800&auto=format&fit=crop",
+      "/images/RGR/RGR_C2.webp?q=80&w=800&auto=format&fit=crop",
+      "/images/RGR/RGR_C3.webp?q=80&w=800&auto=format&fit=crop",
+      "/images/RGR/RGR_C4.webp?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "",
