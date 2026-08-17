@@ -1171,7 +1171,7 @@
     "closingTime": "06:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": "?",
+    "pricePerHour": "250",
     "imageUrl": "/images/T-James/TJAMES_logo.jpg?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "/images/T-James/TJAMES_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
@@ -1185,7 +1185,7 @@
       "email": "",
       "facebook": "https://www.facebook.com/tjamessportybar"
     },
-    "scheduleNote": "Open daily 4:00 PM – 6:00 AM. Features 4 outdoor courts, comfortable lounge area, drinks, snacks, billiards table, and darts. ",
+    "scheduleNote": "Open daily 4:00 PM – 6:00 AM. Features 4 outdoor courts, comfortable lounge area, drinks, snacks, billiards table, and darts. Rates: ₱250/hr with a minimum of 2hours booking.",
     "booking": {
       "type": "messenger",
       "url": "https://www.facebook.com/tjamessportybar",
