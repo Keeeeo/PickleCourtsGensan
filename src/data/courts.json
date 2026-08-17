@@ -1172,11 +1172,13 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "?",
-    "imageUrl": "/images/Summer_pickle/Summer_logo.jpg?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/Summer_pickle/Summer_C2.jpg?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/T-James/TJAMES_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/T-James/TJAMES_C1.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "/images/Summer_pickle/Summer_C1.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/Summer_pickle/Summer_C2.jpg?q=80&w=800&auto=format&fit=crop"
+      "/images/T-James/TJAMES_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/T-James/TJAMES_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/T-James/TJAMES_C3.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/T-James/TJAMES_C4.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 956 947 7969",
