@@ -1137,7 +1137,7 @@
     "closingTime": "02:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": "250",
+    "pricePerHour": "250~300",
     "imageUrl": "/images/TheCompoundCourts/CompCourts_logo.jpg?q=80&w=800&auto=format&fit=crop",
     "bannerUrl": "/images/TheCompoundCourts/CompCourts_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
