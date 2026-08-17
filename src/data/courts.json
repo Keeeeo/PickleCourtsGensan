@@ -1159,6 +1159,38 @@
     }
   },
   {
+    "id": "t-james-sporty-bar",
+    "name": "T-James Sporty Bar",
+    "address": "Purok 14-D Blabagno Compound, Barangay Katangawan, General Santos City",
+    "latitude": 6.1664568,
+    "longitude": 125.1948327,
+    "isIndoor": false,
+    "isOutdoor": true,
+    "googleMapsUrl": "https://maps.app.goo.gl/1XCvVnHESpGzTVcH7",
+    "openingTime": "16:00",
+    "closingTime": "06:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": "?",
+    "imageUrl": "/images/Summer_pickle/Summer_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Summer_pickle/Summer_C2.jpg?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/Summer_pickle/Summer_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Summer_pickle/Summer_C2.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 956 947 7969",
+      "email": "",
+      "facebook": "https://www.facebook.com/tjamessportybar"
+    },
+    "scheduleNote": "Open daily 4:00 PM – 6:00 AM. Features 4 outdoor courts, comfortable lounge area, drinks, snacks, billiards table, and darts. ",
+    "booking": {
+      "type": "messenger",
+      "url": "https://www.facebook.com/tjamessportybar",
+      "label": "Message on Messenger"
+    }
+  },
+  {
     "id": "the-compound-courts",
     "name": "The Compound Courts",
     "address": "5568+6WR, General Santos City Circumferential Rd, Barangay San Isidro",
