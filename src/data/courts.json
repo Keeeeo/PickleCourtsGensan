@@ -1515,5 +1515,39 @@
       "url": "https://picklehub.ph/v-park?tab=home",
       "label": "Book on PickleHub"
     }
+  },
+  {
+    "id": "zz-pickle-court",
+    "name": "ZZ Pickle Court",
+    "address": "Block 6, Dadiangas Heights Subdivision, General Santos City",
+    "latitude": 6.1258537,
+    "longitude": 125.1748954,
+    "isIndoor": true,
+    "isOutdoor": false,
+    "googleMapsUrl": "https://maps.app.goo.gl/QfpTRyEofVtriTuo8",
+    "openingTime": "06:00",
+    "closingTime": "23:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": "200~300",
+    "imageUrl": "/images/vpark/VPARK_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/vpark/VPARK_C1.jpg?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/vpark/VPARK_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C3.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/vpark/VPARK_C4.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 967 941 1879",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61592403852083"
+    },
+    "scheduleNote": "Clean, covered pickleball court surrounded by peaceful bonsai trees, providing a comfortable, all-weather space for exclusive play. Featuring one indoor court. Rates: ₱200/hr (6AM-4PM) & ₱300/hr (5PM-11PM)",
+    "booking": {
+      "type": "Facebook Messenger",
+      "url": "https://www.facebook.com/profile.php?id=61592403852083",
+      "label": "Message on Messenger"
+    }
   }
 ]
