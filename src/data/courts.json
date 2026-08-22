@@ -1322,6 +1322,38 @@
     }
   },
   {
+    "id": "the-pickle-cafe",
+    "name": "The Pickle Cafe",
+    "address": "Purok 3, Labu, Barangay Katangawan, General Santos City",
+    "latitude": 6.1881597,
+    "longitude": 125.223327,
+    "isIndoor": false,
+    "isOutdoor": true,
+    "googleMapsUrl": "https://maps.app.goo.gl/uCctdyRqxFn9PzWt6",
+    "openingTime": "06:00",
+    "closingTime": "03:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": "295",
+    "imageUrl": "/images/Pickle_barn/PBARN_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Pickle_barn/PBARN_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/Pickle_barn/PBARN_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Pickle_barn/PBARN_C2.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 991 516 1853",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61589849589466"
+    },
+    "scheduleNote": "Rustically designed indoor facility protecting players from heat and rain.",
+    "booking": {
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/pickle-barn-gsc?tab=home",
+      "label": "Book on PickleHub"
+    }
+  },
+  {
     "id": "the-pickle-neighbour",
     "name": "The Pickle Neighbour",
     "address": "Romana Estate, 2 Dacera Street, Barangay City Heights, General Santos City",
