@@ -226,6 +226,39 @@
     }
   },
   {
+    "id": "conel-courts",
+    "name": "Conel Courts Pickle and brew",
+    "address": "Purok 1B, Santos Compound, Barangay Conel, General Santos City",
+    "latitude": 6.2020403,
+    "longitude": 125.1914194,
+    "isIndoor": false,
+    "isOutdoor": true,
+    "googleMapsUrl": "https://maps.app.goo.gl/ZZGukqXUMLqj2BSW8",
+    "openingTime": "05:00",
+    "closingTime": "00:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": "200",
+    "imageUrl": "/images/City_Smash/City_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/City_Smash/City_C1.jpg?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/City_Smash/City_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/City_Smash/City_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/City_Smash/City_C3.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "",
+      "email": "",
+      "facebook": "https://www.facebook.com/profile.php?id=61591787855161"
+    },
+    "scheduleNote": "Open daily 5:00 AM – 12:00 MN. Features 3 outdoor courts, comfortable lounge area, drinks, and snacks. Rates: ₱200/hr ",
+    "booking": {
+      "type": "BookingDyno",
+      "url": "https://l.facebook.com/l.php?u=http%3A%2F%2Fconelcourts.bookingdyno.com%2F%3Ffbclid%3DIwcGRvZgVleHRuA2FlbQIxMABicmlkETFOOVFreE9DSlJ6enVibnZXc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvYsqBWrzJ1l-dgycXx7FgF6qDtaMYrstpxhETgQEXpm41QBR91tMo5C5Yf3_aem_bIUw62KTKm29MjmujVmHqg&h=AUBe93xwycFpz2X8K6nAr4iWdiBEaH8c9j-7SwfRNqkzu4bx6EVlJHa0pKLuSBx5TX0U0gexPcVbwLEgIVQBkEOXeCOOP3eUY4IdS029XTJxZF0pUIiRL5aTPC0Tt6tfZu6o5a4GqL-LP_7DItTZhNiC2l1jbS1_3g&__tn__=-UK-R&c[0]=AUAEP8guUpDNW6-Tw645vTjvHRiF4VY4CZZuyhjxMPwhaMU8q55Bfg0v2E9gBoyjq5iSiG4VLTr8x1EIeIFQ1aupeNaxTwwLco6FFTazUoH3ufM9_Wns4g7AS5Bp_tBsfTwVwfHob7tU4Y6iCQkU-xxNS3KUYqsa4BesTu7cYz4Fzfo5Klnuyc7-M_rfuG5NJBk",
+      "label": "Book on BookingDyno"
+    }
+  },
+  {
     "id": "court-zero",
     "name": "Court Zero Racquet Club",
     "address": "Sampaguita Street, Brgy. City Heights, General Santos City",
@@ -1348,7 +1381,7 @@
       "email": "",
       "facebook": "https://www.facebook.com/profile.php?id=61593180392441"
     },
-    "scheduleNote": "Nature-inspired destination offering tropical outdoor pickleball courts alongside authentic Vietnamese coffee, Umamen ramen, and brick-oven pizza.  Rates: ₱200/hr Monday-Thursday,  ₱200/hr (Morning) & ₱250/hr (Night).",
+    "scheduleNote": "Open daily 8:00 AM – 12:00 MN.Nature-inspired destination offering tropical two outdoor pickleball courts alongside authentic Vietnamese coffee, Umamen ramen, and brick-oven pizza.  Rates: ₱200/hr Monday-Thursday,  ₱200/hr (Morning) & ₱250/hr (Night).",
     "booking": {
       "type": "Facebook Messenger",
       "url": "https://www.facebook.com/profile.php?id=61593180392441",
