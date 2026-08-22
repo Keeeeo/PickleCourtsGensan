@@ -1330,27 +1330,29 @@
     "isIndoor": false,
     "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/uCctdyRqxFn9PzWt6",
-    "openingTime": "06:00",
-    "closingTime": "03:00",
+    "openingTime": "08:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
-    "pricePerHour": "295",
-    "imageUrl": "/images/Pickle_barn/PBARN_logo.jpg?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/Pickle_barn/PBARN_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
+    "pricePerHour": "200~250",
+    "imageUrl": "/images/ThePickleCafe/Pickle_cafe_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/ThePickleCafe/Pickle_cafe_c3.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "/images/Pickle_barn/PBARN_C1.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/Pickle_barn/PBARN_C2.jpg?q=80&w=800&auto=format&fit=crop"
+      "/images/ThePickleCafe/Pickle_cafe_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ThePickleCafe/Pickle_cafe_c2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ThePickleCafe/Pickle_cafe_c3.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ThePickleCafe/Pickle_cafe_C4.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
-      "phone": "+63 991 516 1853",
+      "phone": "",
       "email": "",
-      "facebook": "https://www.facebook.com/profile.php?id=61589849589466"
+      "facebook": "https://www.facebook.com/profile.php?id=61593180392441"
     },
-    "scheduleNote": "Rustically designed indoor facility protecting players from heat and rain.",
+    "scheduleNote": "Nature-inspired destination offering tropical outdoor pickleball courts alongside authentic Vietnamese coffee, Umamen ramen, and brick-oven pizza.  Rates: ₱200/hr Monday-Thursday,  ₱200/hr (Morning) & ₱250/hr (Night).",
     "booking": {
-      "type": "pickle-hub",
-      "url": "https://picklehub.ph/pickle-barn-gsc?tab=home",
-      "label": "Book on PickleHub"
+      "type": "Facebook Messenger",
+      "url": "https://www.facebook.com/profile.php?id=61593180392441",
+      "label": "Message on Messenger"
     }
   },
   {
