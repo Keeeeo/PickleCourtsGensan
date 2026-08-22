@@ -686,8 +686,8 @@
     "isIndoor": false,
     "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/P4wZLTpFNFDp41p28",
-    "openingTime": "07:00",
-    "closingTime": "21:00",
+    "openingTime": "16:00",
+    "closingTime": "00:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "200",
@@ -701,7 +701,7 @@
       "email": "",
       "facebook": "https://www.facebook.com/profile.php?id=61591607160840"
     },
-    "scheduleNote": "Local sports and diner spot offering outdoor court access.",
+    "scheduleNote": "Open daily (4PM-12MN). Featuring one outdoor court. Rates: ₱200/hr. ",
     "booking": {
       "type": "messenger",
       "url": "https://www.facebook.com/profile.php?id=61591607160840",
