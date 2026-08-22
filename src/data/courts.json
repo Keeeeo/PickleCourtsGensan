@@ -1530,13 +1530,12 @@
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "200~300",
-    "imageUrl": "/images/vpark/VPARK_logo.jpg?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/vpark/VPARK_C1.jpg?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/ZZPickleCourts/ZZPickleCourts_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/ZZPickleCourts/ZZPickleCourts_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "/images/vpark/VPARK_C1.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/vpark/VPARK_C2.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/vpark/VPARK_C3.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/vpark/VPARK_C4.jpg?q=80&w=800&auto=format&fit=crop"
+      "/images/ZZPickleCourts/ZZPickleCourts_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ZZPickleCourts/ZZPickleCourts_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/ZZPickleCourts/ZZPickleCourts_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 967 941 1879",
