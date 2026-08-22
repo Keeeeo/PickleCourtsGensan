@@ -1063,6 +1063,39 @@
     }
   },
   {
+    "id": "pickle-court-co",
+    "name": "Pickle Court co.",
+    "address": "Golden Village, San Isidro, General Santos City",
+    "latitude": 6.1455442,
+    "longitude": 125.1520903,
+    "isIndoor": false,
+    "isOutdoor": true,
+    "googleMapsUrl": "https://maps.app.goo.gl/na1uLxZCeQckSZ3j9",
+    "openingTime": "00:00",
+    "closingTime": "00:00",
+    "hasOpenPlay": false,
+    "hasCourtBooking": true,
+    "pricePerHour": "100~150",
+    "imageUrl": "/images/Sanman/SANMANPP_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Sanman/SANMANPP_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/Sanman/SANMANPP_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Sanman/SANMANPP_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Sanman/SANMANPP_C3.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 997 683 4083",
+      "email": "sharelafrancisco@gmail.com",
+      "facebook": "https://www.facebook.com/profile.php?id=61592867558067"
+    },
+    "scheduleNote": "Private single-court outdoor setup with bright night lighting, perfect for exclusive matches with your group. Rates: ₱100/hr (Morning) & 150/hr (4PM Onwards)",
+    "booking": {
+      "type": "Facebook Messenger",
+      "url": "https://www.facebook.com/profile.php?id=61592867558067s",
+      "label": "Message on Messenger"
+    }
+  },
+  {
     "id": "pickle-punch-gensan",
     "name": "Sanman Pickle Punch Gensan",
     "address": "Sanman Boxing Gym Compound Brgy. San Isidro, General Santos City",
