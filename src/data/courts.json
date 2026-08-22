@@ -354,6 +354,39 @@
     }
   },
   {
+    "id": "dinkwondo",
+    "name": "Dinkwondo",
+    "address": "45MM+6XJ, NLSA Rd, Brgy. San Isidro, General Santos City",
+    "latitude": 6.1329964,
+    "longitude": 125.1849904,
+    "isIndoor": true,
+    "isOutdoor": false,
+    "googleMapsUrl": "https://maps.app.goo.gl/knc8wHTtfVqWfEKW6",
+    "openingTime": "17:00",
+    "closingTime": "01:00",
+    "hasOpenPlay": true,
+    "hasCourtBooking": true,
+    "pricePerHour": "315",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/DinkOC/DinkOC_Banner.png?q=80&w=1600&auto=format&fit=crop",
+    "gallery": [
+      "/images/DinkOC/DinkOC_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/DinkOC/DINKOC_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/DinkOC/DinkOC_C3.jpg?q=80&w=800&auto=format&fit=crop"
+    ],
+    "contact": {
+      "phone": "+63 991 819 2557",
+      "email": "dinkwondo@gmail.com",
+      "facebook": "https://www.facebook.com/dinkwondo"
+    },
+    "scheduleNote": "Open daily 5:00 PM – 1:00 AM. Features 2 outdoor concrete courts. Rates ₱315/hr.",
+    "booking": {
+      "type": "pickle-hub",
+      "url": "https://picklehub.ph/dinkwondo-pickleball-hub?tab=home",
+      "label": "Book on PickleHub"
+    }
+  },
+  {
     "id": "fora-gensan",
     "name": "Frasssati Outdoor Recreation Area (FORA)",
     "address": "Our Lady Manaog Compound, Nuñez Street, General Santos City",
