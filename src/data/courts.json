@@ -359,20 +359,20 @@
     "address": "45MM+6XJ, NLSA Rd, Brgy. San Isidro, General Santos City",
     "latitude": 6.1329964,
     "longitude": 125.1849904,
-    "isIndoor": true,
-    "isOutdoor": false,
+    "isIndoor": false,
+    "isOutdoor": true,
     "googleMapsUrl": "https://maps.app.goo.gl/knc8wHTtfVqWfEKW6",
     "openingTime": "17:00",
     "closingTime": "01:00",
     "hasOpenPlay": true,
     "hasCourtBooking": true,
     "pricePerHour": "315",
-    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgqxZ1miXLax9fIFzJLVdfSn7L8uQr6BjtjUyyLrqG-HA3MPx6O2sESj-P&s=10?q=80&w=800&auto=format&fit=crop",
-    "bannerUrl": "/images/DinkOC/DinkOC_Banner.png?q=80&w=1600&auto=format&fit=crop",
+    "imageUrl": "/images/Dinkwondo/Dinkwondo_logo.jpg?q=80&w=800&auto=format&fit=crop",
+    "bannerUrl": "/images/Dinkwondo/Dinkwondo_Banner.jpg?q=80&w=1600&auto=format&fit=crop",
     "gallery": [
-      "/images/DinkOC/DinkOC_C1.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/DinkOC/DINKOC_C2.jpg?q=80&w=800&auto=format&fit=crop",
-      "/images/DinkOC/DinkOC_C3.jpg?q=80&w=800&auto=format&fit=crop"
+      "/images/Dinkwondo/Dinkwondo_C1.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Dinkwondo/Dinkwondo_C2.jpg?q=80&w=800&auto=format&fit=crop",
+      "/images/Dinkwondo/Dinkwondo_C3.jpg?q=80&w=800&auto=format&fit=crop"
     ],
     "contact": {
       "phone": "+63 991 819 2557",
